@@ -1,0 +1,121 @@
+\form#0:\[ \left( \begin{array}{cc} H & G^T \\ G & 0 \end{array} \right) \left( \begin{array}{c} \ddot{q} \\ - \lambda \end{array} \right) = \left( \begin{array}{c} -C + \tau \\ \gamma \end{array} \right) \]
+\form#1:$H$
+\form#2:$G$
+\form#3:$C$
+\form#4:$\gamma$
+\form#5:\[ \left( \begin{array}{cc} H & G^T \\ G & 0 \end{array} \right) \left( \begin{array}{c} \dot{q}^{+} \\ \Lambda \end{array} \right) = \left( \begin{array}{c} H \dot{q}^{-} \\ v^{+} \end{array} \right) \]
+\form#6:$\dot{q}^{+}$
+\form#7:$\Lambda$
+\form#8:$\dot{q}^{-}$
+\form#9:$v^{+}$
+\form#10:$\ddot{q}$
+\form#11:$\lambda$
+\form#12:$L^TL$
+\form#13:$\phi (q) = 0$
+\form#14:\begin{eqnarray*} \text{minimize} && \sum_{i = 0}^{n} (q - q_{0})^T W (q - q_{0}) \\ \text{over} && q \\ \text{subject to} && \phi (q) = 0 \end{eqnarray*}
+\form#15:\begin{eqnarray*} \text{minimize} && \sum_{i = 0}^{n} (\dot{q} - \dot{q}_{0})^T W (\dot{q} - \dot{q}_{0}) \\ \text{over} && \dot{q} \\ \text{subject to} && \dot{\phi} (q) = \phi _{q}(q) \dot{q} + \phi _{t}(q) = 0 \end{eqnarray*}
+\form#16:$q_{0}$
+\form#17:$\dot{q}_{0}$
+\form#18:$\phi _{q}$
+\form#19:$\phi$
+\form#20:$q$
+\form#21:$\phi _{t}(q)$
+\form#22:$W$
+\form#23:$ \phi (q_{0}) + \phi _{t}(q0) + \phi _{q_0}(q) (q - q_{0}) $
+\form#24:\[ \left( \begin{array}{cc} H & G^T \\ G & 0 \end{array} \right) \left( \begin{array}{c} \ddot{q} \\ - \lambda \end{array} \right) = \left( \begin{array}{c} -C + \tau \\ \gamma + \gamma _{stab} \end{array} \right) \]
+\form#25:$\gamma _{stab}$
+\form#26:\[ \gamma _{stab} = - 2 \alpha \dot{\phi} (q) - \beta^2 \phi (q) \]
+\form#27:$\phi (q)$
+\form#28:$\alpha$
+\form#29:$\beta$
+\form#30:\[ \alpha = \beta = 1 / T_\textit{stab} \]
+\form#31:$T_\textit{stab}$
+\form#32:$T_\textit{stab} = 0.1$
+\form#33:\[ \left( \begin{array}{cc} H & G^T \\ G & 0 \end{array} \right) \left( \begin{array}{c} \ddot{q} \\ -\lambda \end{array} \right) = \left( \begin{array}{c} -C + \tau \\ \gamma \end{array} \right) \]
+\form#34:$\Phi_{i,j}$
+\form#35:\[ \left( \begin{array}{c} \dot{v}_1 \\ \dot{v}_2 \\ \vdots \\ \dot{v}_n \end{array} \right) = \left( \begin{array}{cccc} \Phi_{1,1} & \Phi_{1,2} & \cdots & \Phi{1,n} \\ \Phi_{2,1} & \Phi_{2,2} & \cdots & \Phi{2,n} \\ \cdots & \cdots & \cdots & \vdots \\ \Phi_{n,1} & \Phi_{n,2} & \cdots & \Phi{n,n} \end{array} \right) \left( \begin{array}{c} f_1 \\ f_2 \\ \vdots \\ f_n \end{array} \right) + \left( \begin{array}{c} \phi_1 \\ \phi_2 \\ \vdots \\ \phi_n \end{array} \right). \]
+\form#36:$n$
+\form#37:$\dot{v}_i$
+\form#38:$f_i$
+\form#39:$\phi_i$
+\form#40:$ (n_\textit{dof} + n_c) \times (n_\textit{dof} + n_c$
+\form#41:$ \mathbb{R}^{n_\textit{dof}}$
+\form#42:$ \mathbb{R}^{n_c}$
+\form#43:$L^TL $
+\form#44:$n_\textit{dof} \times n_\textit{dof}$
+\form#45:$\left[ \ Y \ | Z \ \right]$
+\form#46:$GZ = 0$
+\form#47:$\mathbb{R}^{n_\textit{dof}}$
+\form#48:$\phi_p(q,t)=0$
+\form#49:$\phi_v(\dot{q},t)=0$
+\form#50:$\phi_a(\ddot{q},t)=0$
+\form#51:$\Phi(\ddot{q},\dot{q},q,t)=0$
+\form#52:$ \dfrac{ \partial \Phi(\ddot{q},\dot{q},q,t)}{ \partial \ddot{q}}$
+\form#53:$ \gamma = - ( \Phi(\ddot{q},\dot{q},q,t) - G \ddot{q})$
+\form#54:$\phi_p(\dot{q},t)$
+\form#55:$\phi_v(\dot{q},t)$
+\form#56:$ \tau = M(q) \ddot{q} + N(q, \dot{q}) $
+\form#57:$ M(q) $
+\form#58:$ \ddot{q} = M(q)^{-1} ( -N(q, \dot{q}) + \tau)$
+\form#59:$O(n_{dof})$
+\form#60:$n_{dof}$
+\form#61:\[ H \ddot{q} = -C + \tau \]
+\form#62:$ \ddot{q} = M(q)^{-1} \tau$
+\form#63:$\tau$
+\form#64:$O(n_{\textit{dof}})$
+\form#65:\[ (r_x, r_y, r_z, t_x, t_y, t_z) \]
+\form#66:$x$
+\form#67:$y$
+\form#68:$z$
+\form#69:$\mathbf{q}, \mathbf{\dot{q}}, \mathbf{\ddot{q}}$
+\form#70:$\mathbf{\tau}$
+\form#71:$\mathbf{q}$
+\form#72:$q_i$
+\form#73:$\mathbf{\dot{q}}$
+\form#74:$\omega$
+\form#75:$\mathbf{\ddot{q}}$
+\form#76:$\dot{\omega}$
+\form#77:$\mathbf{\bar{q}}$
+\form#78:$\mathbf{q},\mathbf{\bar{q}},\mathbf{\bar{\bar{q}}},\mathbf{\tau}$
+\form#79:\begin{eqnarray*} \mathbf{q} &=& ( q_{tx}, q_{q1,x}, q_{q1,y}, q_{q1,z}, q_{ty}, q_{q2,x}, q_{q2,y}, q_{q2,z}, q_{q1,w}, q_{q2,w})^T \\ \mathbf{\bar{q}} &=& ( \dot{q}_{tx}, \omega_{1,x}, \omega_{1,y}, \omega_{1,z}, \dot{q}_{ty}, \omega_{2,x}, \omega_{2,y}, \omega_{2,z} )^T \\ \mathbf{\bar{\bar{q}}} &=& ( \ddot{q}_{tx}, \dot{\omega}_{1,x}, \dot{\omega}_{1,y}, \dot{\omega}_{1,z}, \ddot{q}_{ty}, \dot{\omega}_{2,x}, \dot{\omega}_{2,y}, \dot{\omega}_{2,z} )^T \\ \mathbf{\tau} &=& ( \tau_{tx}, \tau_{1,x}, \tau_{1,y}, \tau_{1,z}, \tau_{ty}, \tau_{2,x}, \tau_{2,y}, \tau_{2,z} )^T \end{eqnarray*}
+\form#80:\[ q, \dot{q} \]
+\form#81:$g(q(t))$
+\form#82:$\frac{d}{dt} g(q(t)) = G(q)\dot{q}$
+\form#83:$G(q)$
+\form#84:$\dot{q}$
+\form#85:$i$
+\form#86:${}^i \hat{v}_i = G(q) * \dot{q}$
+\form#87:\[ Qres = Qres + \Delta \theta\]
+\form#88:\[ \Delta \theta = G^T (G^T G + \lambda^2 I)^{-1} e \]
+\form#89:$G = G(q) = \frac{d}{dt} g(q(t))$
+\form#90:$e$
+\form#91:$||\Delta \theta||_2 \le$
+\form#92:$\mathbf{\dot{q}}, \mathbf{\ddot{q}}$
+\form#93:\[ X_{\lambda(i)} = {}^{i} X_{\lambda(i)} \]
+\form#94:$\mathbf{t}_A(\theta)$
+\form#95:$\mathbf{t}_V(\dot{\theta})$
+\form#96:$\mathbf{t}_P(\theta-\theta_S)$
+\form#97:$s_P$
+\form#98:$\theta_S$
+\form#99:$\theta$
+\form#100:$\dot{\theta}$
+\form#101:$\mathbf{a}$
+\form#102:$\tau_{ISO}$
+\form#103:\[ \tau (\mathbf{a}, \theta,\dot{\theta}) = \tau_{ISO} ( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, ) \]
+\form#104:$\mathbf{t}_P$
+\form#105:$C_2$
+\form#106:$5^{th}$
+\form#107:$\mathbf{t}_A$
+\form#108:$\ell/s$
+\form#109:$\dot{\theta}= \frac{1}{2} \dot{\theta}_{MAX}$
+\form#110:$\dot{\theta}=0$
+\form#111:$ jointTorque = signOfJointTorque*fiberTorque $
+\form#112:$ fiberAngle = signOfJointAngleRelativeToAnderson2007*(jointAngle-jointAngleOffsetRelativeToAnderson2007). $
+\form#113:\[ \tau_{M} = \pm \tau_{ISO}( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, ) \]
+\form#114:\[ \mathbf{a} = \dfrac{ \dfrac{\tau (\mathbf{a}, \theta,\dot{\theta})}{ \tau_{ISO}} - \mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX}))}{ \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX})}. \]
+\form#115:$A$
+\form#116:$\tau^*$
+\form#117:\[ A = \dfrac{\tau^*}{ \tau_{ISO}( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, )} \]
+\form#118:$\beta_{MAX}$
+\form#119:$\mathbf{t}_V$
+\form#120:$e^{-1/2}$
