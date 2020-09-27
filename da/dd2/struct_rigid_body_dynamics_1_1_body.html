@@ -318,7 +318,7 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00171">171</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00168">168</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
 </div>
 </div>
@@ -359,18 +359,17 @@ Data Fields</h2></td></tr>
 
 <p>Joins inertial parameters of two bodies to create a composite body. </p>
 <p>This function can be used to joint inertial parameters of two bodies to create a composite body that has the inertial properties as if the two bodies were joined by a fixed joint.</p>
-<dl class="section note"><dt>Note</dt><dd>Both bodies have to have their inertial parameters expressed in the same orientation.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transform</td><td>The frame transformation from the origin of the original body to the origin of the added body </td></tr>
+    <tr><td class="paramname">transform</td><td>The frame transformation from the current body to the other body. </td></tr>
     <tr><td class="paramname">other_body</td><td>The other body that will be merged with *this. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00107">107</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00104">104</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00116">SpatialRigidBodyInertia::createFromMassComInertiaC()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00311">SpatialTransform::E</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00176">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00178">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00171">Body::mMass</a>, <a class="el" href="../../df/d59/rbdl__mathutils_8cc_source.html#l00186">RigidBodyDynamics::Math::parallel_axis()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00312">SpatialTransform::r</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00085">SpatialRigidBodyInertia::toMatrix()</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00018">RigidBodyDynamics::Math::VectorCrossMatrix()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00116">SpatialRigidBodyInertia::createFromMassComInertiaC()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00311">SpatialTransform::E</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00173">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00175">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00168">Body::mMass</a>, <a class="el" href="../../df/d59/rbdl__mathutils_8cc_source.html#l00178">RigidBodyDynamics::Math::parallel_axis()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00312">SpatialTransform::r</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00085">SpatialRigidBodyInertia::toMatrix()</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00018">RigidBodyDynamics::Math::VectorCrossMatrix()</a>.</p>
 
 </div>
 </div>
@@ -400,7 +399,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00039">39</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/df9/_body_8h_source.html#l00176">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00178">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00180">Body::mIsVirtual</a>, and <a class="el" href="../../d4/df9/_body_8h_source.html#l00171">Body::mMass</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df9/_body_8h_source.html#l00173">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00175">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00177">Body::mIsVirtual</a>, and <a class="el" href="../../d4/df9/_body_8h_source.html#l00168">Body::mMass</a>.</p>
 
 </div>
 </div>
@@ -419,7 +418,7 @@ Data Fields</h2></td></tr>
 
 <p>The position of the center of mass in body coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00176">176</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00173">173</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +436,7 @@ Data Fields</h2></td></tr>
 
 <p>Inertia matrix at the center of mass. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00178">178</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00175">175</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
 </div>
 </div>
@@ -453,7 +452,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00180">180</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00177">177</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
 </div>
 </div>
@@ -471,7 +470,7 @@ Data Fields</h2></td></tr>
 
 <p>The mass of the body. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00171">171</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/df9/_body_8h_source.html#l00168">168</a> of file <a class="el" href="../../d4/df9/_body_8h_source.html">Body.h</a>.</p>
 
 </div>
 </div>
@@ -484,7 +483,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></li><li class="navelem"><a class="el" href="../../da/dd2/struct_rigid_body_dynamics_1_1_body.html">Body</a></li>
-    <li class="footer">Generated on Sun Mar 8 2020 21:37:49 for Rigid Body Dynamics Library by
+    <li class="footer">Generated on Sun Sep 27 2020 14:07:31 for Rigid Body Dynamics Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

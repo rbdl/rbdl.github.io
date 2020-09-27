@@ -4,6 +4,7 @@ var class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_funct
     [ "SmoothSegmentedFunction", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a251b74fe3e24e751d1a3794a2d2b6737", null ],
     [ "calcDerivative", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a8eb29c5d00c708c1eeade716f5446eba", null ],
     [ "calcDerivative", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a2daff076aed54984b90b063834771afa", null ],
+    [ "calcInverseValue", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a7134ea649f4e6a32b80ab84928b7c9d0", null ],
     [ "calcSampledCurve", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a911bc1efc5e07014b2e5c77428cf6af6", null ],
     [ "calcValue", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a5ae82271f9f3e8f6c771607ea4a9566c", null ],
     [ "calcValue", "dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#af502ee0a98b56383b5c68319addfbf07", null ],

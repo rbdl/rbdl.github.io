@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['smoothsegmentedfunctionfactory',['SmoothSegmentedFunctionFactory',['../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a065e9c1dda8033669430a481cdff40e2',1,'RigidBodyDynamics::Addons::Geometry::SmoothSegmentedFunction']]]
+  ['fittorquemuscleparameters',['FitTorqueMuscleParameters',['../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html#ab90e1312bdbc2955249bf6a8b6c64bb2',1,'RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle']]]
 ];

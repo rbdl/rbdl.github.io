@@ -51,10 +51,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457ace2b20867af3b1acc85e649f63312705",
-"d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9a489a62de9db7bb0a9e0b8e0b24b892ed",
-"db/d48/_model_8cc.html#a53699648c5840620987908b0a82a54de",
-"df/dbe/joint_description.html#joint_singularities"
+"d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a3995f925533bd052a4e1d49c5779da62",
+"d4/de5/_kinematics_8cc.html#ga6555188cf8a68fe78c13063c7ffec444",
+"d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html#afe89130f0e743d0ff6b093ff426676bd",
+"db/da5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_info.html#ae6b9d9787e407cf1427363d315003526",
+"functions_func_p.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

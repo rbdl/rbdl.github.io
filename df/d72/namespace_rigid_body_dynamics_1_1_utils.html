@@ -109,15 +109,17 @@ Functions</h2></td></tr>
 <tr class="memitem:abfadeaeccca866d38e837e0a2cd9049d"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html#abfadeaeccca866d38e837e0a2cd9049d">CalcCenterOfMass</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qdot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> *qddot, double &amp;mass, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;com, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> *com_velocity=NULL, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> *com_acceleration=NULL, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> *angular_momentum=NULL, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> *change_of_angular_momentum=NULL, bool update_kinematics=true)</td></tr>
 <tr class="memdesc:abfadeaeccca866d38e837e0a2cd9049d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Center of Mass (COM) and optionally its linear velocity.  <a href="#abfadeaeccca866d38e837e0a2cd9049d">More...</a><br /></td></tr>
 <tr class="separator:abfadeaeccca866d38e837e0a2cd9049d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa339bd04f23df5f6d131d44ba3f2b96f"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html#aa339bd04f23df5f6d131d44ba3f2b96f">CalcZeroMomentPoint</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qdot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> *zmp, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;normal=<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a>(0., 0., 1.), const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;point=<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a>(0., 0., 0.), bool update_kinematics=true)</td></tr>
-<tr class="memdesc:aa339bd04f23df5f6d131d44ba3f2b96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Zero-Moment-Point (ZMP) on a given contact surface.  <a href="#aa339bd04f23df5f6d131d44ba3f2b96f">More...</a><br /></td></tr>
-<tr class="separator:aa339bd04f23df5f6d131d44ba3f2b96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcdf4401bd5265869efacac9ce2c539c"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html#afcdf4401bd5265869efacac9ce2c539c">CalcZeroMomentPoint</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qdot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Vector3d</a> *zmp, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;normal, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;UNUSED(point), bool update_kinematics)</td></tr>
+<tr class="separator:afcdf4401bd5265869efacac9ce2c539c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a81a9e72f9763f264899c2d7c49dfc1"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html#a0a81a9e72f9763f264899c2d7c49dfc1">CalcPotentialEnergy</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;q, bool update_kinematics=true)</td></tr>
 <tr class="memdesc:a0a81a9e72f9763f264899c2d7c49dfc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the potential energy of the full model.  <a href="#a0a81a9e72f9763f264899c2d7c49dfc1">More...</a><br /></td></tr>
 <tr class="separator:a0a81a9e72f9763f264899c2d7c49dfc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98ae7c7f6e4a1ccab0be159e19897808"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html#a98ae7c7f6e4a1ccab0be159e19897808">CalcKineticEnergy</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qdot, bool update_kinematics=true)</td></tr>
 <tr class="memdesc:a98ae7c7f6e4a1ccab0be159e19897808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the kinetic energy of the full model.  <a href="#a98ae7c7f6e4a1ccab0be159e19897808">More...</a><br /></td></tr>
 <tr class="separator:a98ae7c7f6e4a1ccab0be159e19897808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae399d304585ab4b85536330e65d37ae8"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html#ae399d304585ab4b85536330e65d37ae8">CalcZeroMomentPoint</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qdot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> *zmp, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;normal=<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a>(0., 0., 1.), const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;point=<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a>(0., 0., 0.), bool update_kinematics=true)</td></tr>
+<tr class="memdesc:ae399d304585ab4b85536330e65d37ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Zero-Moment-Point (ZMP) on a given contact surface.  <a href="#ae399d304585ab4b85536330e65d37ae8">More...</a><br /></td></tr>
+<tr class="separator:ae399d304585ab4b85536330e65d37ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace that contains optional helper functions. </p>
@@ -222,9 +224,9 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>When wanting to compute com_acceleration or change_of_angular momentum one has to provide qddot. In all other cases one can use NULL as argument for qddot. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00153">153</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00172">172</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00233">SpatialTransform::applyAdjoint()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00425">RigidBodyDynamics::Math::crossf()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00133">SpatialRigidBodyInertia::h</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00225">Model::hc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00226">Model::hdotc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00223">Model::I</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00224">Model::Ic</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00131">SpatialRigidBodyInertia::m</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../d8/dba/rbdl__eigenmath_8h_source.html#l00087">Vector3_t::set()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00236">Model::X_lambda</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00396">RigidBodyDynamics::Math::Xtrans()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00233">SpatialTransform::applyAdjoint()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00425">RigidBodyDynamics::Math::crossf()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00133">SpatialRigidBodyInertia::h</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00224">Model::hc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00225">Model::hdotc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00222">Model::I</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00223">Model::Ic</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00131">SpatialRigidBodyInertia::m</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../d8/dba/rbdl__eigenmath_8h_source.html#l00087">Vector3_t::set()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00235">Model::X_lambda</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00396">RigidBodyDynamics::Math::Xtrans()</a>.</p>
 
 </div>
 </div>
@@ -268,9 +270,9 @@ Functions</h2></td></tr>
 
 <p>Computes the kinetic energy of the full model. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00337">337</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00377">377</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00223">Model::I</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00222">Model::I</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
 
 </div>
 </div>
@@ -308,20 +310,20 @@ Functions</h2></td></tr>
 
 <p>Computes the potential energy of the full model. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00312">312</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00351">351</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00153">CalcCenterOfMass()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00162">Model::gravity</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00172">CalcCenterOfMass()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00162">Model::gravity</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>.</p>
 
 </div>
 </div>
-<a id="aa339bd04f23df5f6d131d44ba3f2b96f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa339bd04f23df5f6d131d44ba3f2b96f">&#9670;&nbsp;</a></span>CalcZeroMomentPoint()</h2>
+<a id="ae399d304585ab4b85536330e65d37ae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae399d304585ab4b85536330e65d37ae8">&#9670;&nbsp;</a></span>CalcZeroMomentPoint() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void CalcZeroMomentPoint </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::Utils::CalcZeroMomentPoint </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -391,9 +393,73 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00236">236</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+</div>
+</div>
+<a id="afcdf4401bd5265869efacac9ce2c539c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcdf4401bd5265869efacac9ce2c539c">&#9670;&nbsp;</a></span>CalcZeroMomentPoint() <span class="overload">[2/2]</span></h2>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00233">SpatialTransform::applyAdjoint()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00425">RigidBodyDynamics::Math::crossf()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00162">Model::gravity</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00133">SpatialRigidBodyInertia::h</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00225">Model::hc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00226">Model::hdotc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00223">Model::I</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00224">Model::Ic</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00295">SpatialTransform::inverse()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00131">SpatialRigidBodyInertia::m</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00236">Model::X_lambda</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00396">RigidBodyDynamics::Math::Xtrans()</a>.</p>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::Utils::CalcZeroMomentPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>qdot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>qddot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Vector3d</a> *&#160;</td>
+          <td class="paramname"><em>zmp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>normal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>UNUSED</em>point, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00263">263</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00233">SpatialTransform::applyAdjoint()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00425">RigidBodyDynamics::Math::crossf()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00162">Model::gravity</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00133">SpatialRigidBodyInertia::h</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00224">Model::hc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00225">Model::hdotc</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00222">Model::I</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00223">Model::Ic</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00295">SpatialTransform::inverse()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00131">SpatialRigidBodyInertia::m</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00235">Model::X_lambda</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00396">RigidBodyDynamics::Math::Xtrans()</a>.</p>
 
 </div>
 </div>
@@ -425,7 +491,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00043">43</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00355">Model::GetBodyName()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00132">Model::mu</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00354">Model::GetBodyName()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00132">Model::mu</a>.</p>
 
 </div>
 </div>
@@ -467,9 +533,9 @@ Functions</h2></td></tr>
 
 <p>Creates a human readable overview of the Degrees of Freedom. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00055">55</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00056">56</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00043">get_body_name()</a>, <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00024">get_dof_name()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00043">get_body_name()</a>, <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00024">get_dof_name()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>.</p>
 
 </div>
 </div>
@@ -491,9 +557,9 @@ Functions</h2></td></tr>
 
 <p>Creates a human readable overview of the model. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00125">125</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00140">140</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00074">print_hierarchy()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00079">print_hierarchy()</a>.</p>
 
 </div>
 </div>
@@ -515,9 +581,9 @@ Functions</h2></td></tr>
 
 <p>Creates a human readable overview of the locations of all bodies that have names. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00133">133</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00148">148</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00139">Model::dof_count</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00355">Model::GetBodyName()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00139">Model::dof_count</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00354">Model::GetBodyName()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
 
 </div>
 </div>
@@ -553,9 +619,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00074">74</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00079">79</a> of file <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html">rbdl_utils.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00043">get_body_name()</a>, <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00024">get_dof_name()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00355">Model::GetBodyName()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00132">Model::mu</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00043">get_body_name()</a>, <a class="el" href="../../d4/d22/rbdl__utils_8cc_source.html#l00024">get_dof_name()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00354">Model::GetBodyName()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00132">Model::mu</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>.</p>
 
 </div>
 </div>
@@ -565,7 +631,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></li><li class="navelem"><a class="el" href="../../df/d72/namespace_rigid_body_dynamics_1_1_utils.html">Utils</a></li>
-    <li class="footer">Generated on Sun Mar 8 2020 21:37:49 for Rigid Body Dynamics Library by
+    <li class="footer">Generated on Sun Sep 27 2020 14:07:31 for Rigid Body Dynamics Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

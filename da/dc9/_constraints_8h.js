@@ -2,7 +2,7 @@ var _constraints_8h =
 [
     [ "CalcAssemblyQ", "da/dc9/_constraints_8h.html#ga9267022470b42f2c9e50600575654ee2", null ],
     [ "CalcAssemblyQDot", "da/dc9/_constraints_8h.html#gaccd1758f7c2affe3b46976da474a2756", null ],
-    [ "CalcConstrainedSystemVariables", "da/dc9/_constraints_8h.html#gab319a7e855fe5711b1b72b80894a7226", null ],
+    [ "CalcConstrainedSystemVariables", "da/dc9/_constraints_8h.html#ga8d812bddfbb1bc02f2d3d09dbda758f5", null ],
     [ "CalcConstraintsJacobian", "da/dc9/_constraints_8h.html#ga5a7991381e83c2b006d9dde1cc7fe4e6", null ],
     [ "CalcConstraintsPositionError", "da/dc9/_constraints_8h.html#ga8aefdbdae188a9610c000aee5f64c8c8", null ],
     [ "CalcConstraintsVelocityError", "da/dc9/_constraints_8h.html#gafb289316fd8278bbbbef8632860d158e", null ],
@@ -13,8 +13,8 @@ var _constraints_8h =
     [ "ForwardDynamicsConstraintsNullSpace", "da/dc9/_constraints_8h.html#ga7a4118c2e5389caa67b1f5404e10cef6", null ],
     [ "ForwardDynamicsConstraintsRangeSpaceSparse", "da/dc9/_constraints_8h.html#gafbdff81ed0bc8636ee03b15e0681574e", null ],
     [ "ForwardDynamicsContactsKokkevis", "da/dc9/_constraints_8h.html#gaa9cff799e1e2fc962658fe378708b720", null ],
-    [ "SolveConstrainedSystemDirect", "da/dc9/_constraints_8h.html#gad6d7f6b8059cd0b83414837635ba96b6", null ],
+    [ "SolveConstrainedSystemDirect", "da/dc9/_constraints_8h.html#ga8a922be565ed0191fb89eebc089450f7", null ],
     [ "SolveConstrainedSystemNullSpace", "da/dc9/_constraints_8h.html#ga291125f9f37ab712f624974378ca8384", null ],
-    [ "SolveConstrainedSystemRangeSpaceSparse", "da/dc9/_constraints_8h.html#gac634d60a1857213ec7289a76f8bd280a", null ],
+    [ "SolveConstrainedSystemRangeSpaceSparse", "da/dc9/_constraints_8h.html#gac63f755a2f0b2f1946d6c30e70fca25f", null ],
     [ "CustomConstraint", "da/dc9/_constraints_8h.html#gae2e0e1609dd6e5ed9628a7097b32665e", null ]
 ];

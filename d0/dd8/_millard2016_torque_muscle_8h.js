@@ -9,6 +9,8 @@ var _millard2016_torque_muscle_8h =
     [ "SubjectInformation", "d6/d84/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_subject_information.html", "d6/d84/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_subject_information" ],
     [ "TorqueMuscleSummary", "db/d8c/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_summary.html", "db/d8c/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_summary" ],
     [ "TorqueMuscleInfo", "db/da5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_info.html", "db/da5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_info" ],
+    [ "TorqueMuscleParameterFittingData", "d0/daa/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_parameter_fitting_data.html", "d0/daa/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_parameter_fitting_data" ],
+    [ "TorqueMuscleDataFeatures", "d3/d64/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_data_features.html", "d3/d64/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_data_features" ],
     [ "Millard2016TorqueMuscle", "d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html", "d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle" ],
     [ "AgeGroupSet", "d0/dd8/_millard2016_torque_muscle_8h.html#aa16f81cd84cd2818f060d4829574bdff", null ],
     [ "Anderson2007", "d0/dd8/_millard2016_torque_muscle_8h.html#afe85601ecd24b5e1708167e573606da6", null ],

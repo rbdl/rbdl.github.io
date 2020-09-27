@@ -119,3 +119,41 @@
 \form#118:$\beta_{MAX}$
 \form#119:$\mathbf{t}_V$
 \form#120:$e^{-1/2}$
+\form#121:$ \tau = N(q, \dot{q}, f_\textit{ext}) $
+\form#122:$s^A, s^V, s^\tau$
+\form#123:$\Delta^P$
+\form#124:$\lambda^A,\lambda^V,\lambda^P$
+\form#125:$\Delta_p$
+\form#126:$\lambda^A$
+\form#127:$\lambda^P$
+\form#128:$\lambda^V$
+\form#129:$\lambda^A=1$
+\form#130:$\lambda^P=1$
+\form#131:$\lambda^V=1$
+\form#132:$\mathbf{f}(\mathbf{c}, a,\lambda,\lambda^{max})$
+\form#133:$\mathbf{c}$
+\form#134:\[ \mathbf{f}(a,\lambda,\lambda^{max},\mathbf{c}()) = \mathbf{c}(a) (1-\lambda) + \lambda\lambda^{max} \]
+\form#135:$-\infty,infty$
+\form#136:$a$
+\form#137:$\mathbf{c}()$
+\form#138:$\lambda=1$
+\form#139:$\mathbf{f}(a,\lambda,\lambda^{max},\mathbf{c}())$
+\form#140:$s^A$
+\form#141:$s^V$
+\form#142:$s^\tau$
+\form#143:$\tau_{o}$
+\form#144:$\mathbf{x}$
+\form#145:$\mathbf{x}_o$
+\form#146:\[ (\mathbf{x}-\mathbf{x}_o)^T \mathbf{K} (\mathbf{x}-\mathbf{x}_o) \]
+\form#147:\[ \tau^M(a^{max},\theta_i,\dot{\theta}_i,\mathbf{x})-\tau_i \ge 0 \]
+\form#148:\[ \tau^M(0,\theta_i,\dot{\theta}_i,\mathbf{x})-\tau_i \le 0 \]
+\form#149:\[ \mathbf{t}_{P}(\theta_i) - \mathbf{t}_{P}^{max} \le 0 \]
+\form#150:\[ s^A, s^V, s^{\tau} \ge 1 \]
+\form#151:\[ 1 \ge \lambda^P \ge 0 \]
+\form#152:\[ \pi/2 \ge \Delta^P \ge -\pi/2. \]
+\form#153:$a^{max}$
+\form#154:$\mathbf{t}_{P}^{max}$
+\form#155:$\infty$
+\form#156:$ \tau = M(q) \ddot{q} + N(q, \dot{q}, f_\textit{ext}) $
+\form#157:$ \tau = M(q) \ddot{q} + N(q, \dot{q}, f_{ext}) $
+\form#158:$ \tau = N(q, \dot{q}) $

@@ -80,6 +80,7 @@ $(document).ready(function(){initNavTree('d0/dee/_kinematics_8h.html','../../');
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -89,6 +90,11 @@ $(document).ready(function(){initNavTree('d0/dee/_kinematics_8h.html','../../');
 
 <p><a href="../../d0/dee/_kinematics_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html">InverseKinematicsConstraintSet</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:dd/d16/namespace_rigid_body_dynamics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></td></tr>
@@ -136,6 +142,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa5eabd37ff8b0925d2ecbf49fee1a8a7"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#gaa5eabd37ff8b0925d2ecbf49fee1a8a7">InverseKinematics</a> (Model &amp;model, const Math::VectorNd &amp;Qinit, const std::vector&lt; unsigned int &gt; &amp;body_id, const std::vector&lt; Math::Vector3d &gt; &amp;body_point, const std::vector&lt; Math::Vector3d &gt; &amp;target_pos, Math::VectorNd &amp;Qres, double step_tol=1.0e-12, double lambda=0.01, unsigned int max_iter=50)</td></tr>
 <tr class="memdesc:gaa5eabd37ff8b0925d2ecbf49fee1a8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the inverse kinematics iteratively using a damped Levenberg-Marquardt method (also known as Damped Least Squares method)  <a href="../../de/d92/group__kinematics__group.html#gaa5eabd37ff8b0925d2ecbf49fee1a8a7">More...</a><br /></td></tr>
 <tr class="separator:gaa5eabd37ff8b0925d2ecbf49fee1a8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga140cb5e0796f8d0fc9e2d1f4b3055e64"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#ga140cb5e0796f8d0fc9e2d1f4b3055e64">CalcAngularVelocityfromMatrix</a> (const Matrix3d &amp;RotMat)</td></tr>
+<tr class="separator:ga140cb5e0796f8d0fc9e2d1f4b3055e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee27e8700afaea590a843138e1e9799d"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#gaee27e8700afaea590a843138e1e9799d">InverseKinematics</a> (Model &amp;model, const Math::VectorNd &amp;Qinit, InverseKinematicsConstraintSet &amp;CS, Math::VectorNd &amp;Qres)</td></tr>
+<tr class="separator:gaee27e8700afaea590a843138e1e9799d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -143,7 +153,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_09c13fdaeb1907b55b031c97986864be.html">rbdl</a></li><li class="navelem"><a class="el" href="../../d0/dee/_kinematics_8h.html">Kinematics.h</a></li>
-    <li class="footer">Generated on Sun Mar 8 2020 21:37:48 for Rigid Body Dynamics Library by
+    <li class="footer">Generated on Sun Sep 27 2020 14:07:31 for Rigid Body Dynamics Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a07aa675f83102f88574e236e048ec9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ae82271f9f3e8f6c771607ea4a9566c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a5ae82271f9f3e8f6c771607ea4a9566c">calcValue</a> (double x) const</td></tr>
 <tr class="separator:a5ae82271f9f3e8f6c771607ea4a9566c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7134ea649f4e6a32b80ab84928b7c9d0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a7134ea649f4e6a32b80ab84928b7c9d0">calcInverseValue</a> (double y, double xGuess) const</td></tr>
+<tr class="separator:a7134ea649f4e6a32b80ab84928b7c9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eb29c5d00c708c1eeade716f5446eba"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a8eb29c5d00c708c1eeade716f5446eba">calcDerivative</a> (double x, int order) const</td></tr>
 <tr class="separator:a8eb29c5d00c708c1eeade716f5446eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a60438a5b55d0b2ceb35c8674b9d8c5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a8a60438a5b55d0b2ceb35c8674b9d8c5">getName</a> () const</td></tr>
@@ -359,6 +361,43 @@ Friends</h2></td></tr>
 <p>Refer to the documentation for calcDerivative(double x, int order) because this function is identical in function to calcDerivative(double x, int order), but requires different inputs. This is a required virtual function required because this class extends the Function interface. </p>
 
 <p>Implements <a class="el" href="../../d8/dd0/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_function__.html#a756ed6c4b5b833b24f680ebffb21f469">Function_&lt; double &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a7134ea649f4e6a32b80ab84928b7c9d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7134ea649f4e6a32b80ab84928b7c9d0">&#9670;&nbsp;</a></span>calcInverseValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double calcInverseValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xGuess</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function solves for the x value of the curve given its y value. Since a <a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html">SmoothSegmentedFunction</a> is not necessarily monotonic lower and an upper bound on the argument must be specified so that the desired root is found.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>The range value of interest </td></tr>
+    <tr><td class="paramname">xGuess</td><td>guess for the value of x </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>x: the value of x which corresponds to y = f(x) between xLowerBound, and xUpperBound </dd></dl>
 
 </div>
 </div>
@@ -921,7 +960,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>No human should be constructing a <a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html">SmoothSegmentedFunction</a>, so the constructor is made private so that mere mortals cannot look at it. SmoothSegmentedFunctionFactory should be used to create MuscleCurveFunctions and that's why its a friend </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00514">514</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00526">526</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -947,7 +986,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The slope at _x0 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00497">497</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00509">509</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -972,7 +1011,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The slope at _x1 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00499">499</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00511">511</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -997,7 +1036,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Nov 2015: Not needed in the RBDL port. Array of spline fit functions X(u) for each Bezier elbow Nov 2015: Not included in the RBDL port (RBDL doesn't have an error controlled integrator to generate this curve) Spline fit of the integral of the curve y(x) Bezier X1,...,Xn control point locations. Control points are stored in 6x1 vectors in the order above </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00480">480</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00492">492</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1022,7 +1061,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>Bezier Y1,...,Yn control point locations. Control points are stored in 6x1 vectors in the order above </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00483">483</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00495">495</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1047,7 +1086,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The name of the function </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00508">508</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00520">520</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1072,7 +1111,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The number of quintic Bezier curves that describe the relation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00486">486</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00498">498</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1136,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The minimum value of the domain </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00489">489</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00501">501</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1161,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The maximum value of the domain </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00491">491</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00503">503</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1147,7 +1186,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The minimum value of the range </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00493">493</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00505">505</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1172,7 +1211,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The maximum value of the range </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00495">495</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html#l00507">507</a> of file <a class="el" href="../../d4/d87/_smooth_segmented_function_8h_source.html">SmoothSegmentedFunction.h</a>.</p>
 
 </div>
 </div>
@@ -1185,7 +1224,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></li><li class="navelem"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html">Addons</a></li><li class="navelem"><a class="el" href="../../d7/dbd/namespace_rigid_body_dynamics_1_1_addons_1_1_geometry.html">Geometry</a></li><li class="navelem"><a class="el" href="../../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html">SmoothSegmentedFunction</a></li>
-    <li class="footer">Generated on Sun Mar 8 2020 21:37:49 for Rigid Body Dynamics Library by
+    <li class="footer">Generated on Sun Sep 27 2020 14:07:31 for Rigid Body Dynamics Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

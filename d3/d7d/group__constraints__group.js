@@ -82,7 +82,7 @@ var group__constraints__group =
     ] ],
     [ "CalcAssemblyQ", "d3/d7d/group__constraints__group.html#ga9267022470b42f2c9e50600575654ee2", null ],
     [ "CalcAssemblyQDot", "d3/d7d/group__constraints__group.html#gaccd1758f7c2affe3b46976da474a2756", null ],
-    [ "CalcConstrainedSystemVariables", "d3/d7d/group__constraints__group.html#gab319a7e855fe5711b1b72b80894a7226", null ],
+    [ "CalcConstrainedSystemVariables", "d3/d7d/group__constraints__group.html#ga8d812bddfbb1bc02f2d3d09dbda758f5", null ],
     [ "CalcConstraintsJacobian", "d3/d7d/group__constraints__group.html#ga5a7991381e83c2b006d9dde1cc7fe4e6", null ],
     [ "CalcConstraintsPositionError", "d3/d7d/group__constraints__group.html#ga8aefdbdae188a9610c000aee5f64c8c8", null ],
     [ "CalcConstraintsVelocityError", "d3/d7d/group__constraints__group.html#gafb289316fd8278bbbbef8632860d158e", null ],
@@ -93,8 +93,8 @@ var group__constraints__group =
     [ "ForwardDynamicsConstraintsNullSpace", "d3/d7d/group__constraints__group.html#ga7a4118c2e5389caa67b1f5404e10cef6", null ],
     [ "ForwardDynamicsConstraintsRangeSpaceSparse", "d3/d7d/group__constraints__group.html#gafbdff81ed0bc8636ee03b15e0681574e", null ],
     [ "ForwardDynamicsContactsKokkevis", "d3/d7d/group__constraints__group.html#gaa9cff799e1e2fc962658fe378708b720", null ],
-    [ "SolveConstrainedSystemDirect", "d3/d7d/group__constraints__group.html#gad6d7f6b8059cd0b83414837635ba96b6", null ],
+    [ "SolveConstrainedSystemDirect", "d3/d7d/group__constraints__group.html#ga8a922be565ed0191fb89eebc089450f7", null ],
     [ "SolveConstrainedSystemNullSpace", "d3/d7d/group__constraints__group.html#ga291125f9f37ab712f624974378ca8384", null ],
-    [ "SolveConstrainedSystemRangeSpaceSparse", "d3/d7d/group__constraints__group.html#gac634d60a1857213ec7289a76f8bd280a", null ],
+    [ "SolveConstrainedSystemRangeSpaceSparse", "d3/d7d/group__constraints__group.html#gac63f755a2f0b2f1946d6c30e70fca25f", null ],
     [ "CustomConstraint", "d3/d7d/group__constraints__group.html#gae2e0e1609dd6e5ed9628a7097b32665e", null ]
 ];

@@ -7,6 +7,7 @@ var namespace_rigid_body_dynamics =
     [ "CustomConstraint", "de/db8/struct_rigid_body_dynamics_1_1_custom_constraint.html", "de/db8/struct_rigid_body_dynamics_1_1_custom_constraint" ],
     [ "CustomJoint", "d9/dcf/struct_rigid_body_dynamics_1_1_custom_joint.html", "d9/dcf/struct_rigid_body_dynamics_1_1_custom_joint" ],
     [ "FixedBody", "d9/d63/struct_rigid_body_dynamics_1_1_fixed_body.html", "d9/d63/struct_rigid_body_dynamics_1_1_fixed_body" ],
+    [ "InverseKinematicsConstraintSet", "d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html", "d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set" ],
     [ "Joint", "d0/d8f/struct_rigid_body_dynamics_1_1_joint.html", "d0/d8f/struct_rigid_body_dynamics_1_1_joint" ],
     [ "Model", "d7/d19/struct_rigid_body_dynamics_1_1_model.html", "d7/d19/struct_rigid_body_dynamics_1_1_model" ]
 ];

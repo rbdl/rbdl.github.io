@@ -9,6 +9,7 @@ var searchData=
   ['jointtypecustom',['JointTypeCustom',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a66c042f76ee73c228974834f24faae3e',1,'RigidBodyDynamics']]],
   ['jointtypeeulerxyz',['JointTypeEulerXYZ',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9aa4eb1415202badb8467b015911c7c374',1,'RigidBodyDynamics']]],
   ['jointtypeeuleryxz',['JointTypeEulerYXZ',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a489a62de9db7bb0a9e0b8e0b24b892ed',1,'RigidBodyDynamics']]],
+  ['jointtypeeulerzxy',['JointTypeEulerZXY',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a401ccbb7a8b95ff7c4c39b7dfb7d64c3',1,'RigidBodyDynamics']]],
   ['jointtypeeulerzyx',['JointTypeEulerZYX',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ac2f4c70c2caceb1b4f8f67168bedf77c',1,'RigidBodyDynamics']]],
   ['jointtypefixed',['JointTypeFixed',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a267538915c88ea830f0abe867a793cdd',1,'RigidBodyDynamics']]],
   ['jointtypefloatingbase',['JointTypeFloatingBase',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ac1686a3567e40fae42bf43bcd1842c15',1,'RigidBodyDynamics']]],

@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['fitpassivecurveangleoffset',['fitPassiveCurveAngleOffset',['../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html#ab8f986979d94eef7f19d5a5eb457342d',1,'RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle']]],
-  ['fitpassivetorquescale',['fitPassiveTorqueScale',['../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html#a6a5f370737e963dc9280136be6a89209',1,'RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle']]],
-  ['forwarddynamics',['ForwardDynamics',['../d6/d63/group__dynamics__group.html#ga941bad8e3b7323aaa4a333922fd90480',1,'RigidBodyDynamics']]],
-  ['forwarddynamicsaccelerationdeltas',['ForwardDynamicsAccelerationDeltas',['../dd/d16/namespace_rigid_body_dynamics.html#a663e865ab6e8b85c263e0f367616b9c6',1,'RigidBodyDynamics']]],
-  ['forwarddynamicsapplyconstraintforces',['ForwardDynamicsApplyConstraintForces',['../dd/d16/namespace_rigid_body_dynamics.html#a22e539c966fd5baeb168e2dc8a6dbf4b',1,'RigidBodyDynamics']]],
-  ['forwarddynamicsconstraintsdirect',['ForwardDynamicsConstraintsDirect',['../d3/d7d/group__constraints__group.html#gaca303fd1b887ecbd26e4d02d9d8b8826',1,'RigidBodyDynamics']]],
-  ['forwarddynamicsconstraintsnullspace',['ForwardDynamicsConstraintsNullSpace',['../d3/d7d/group__constraints__group.html#ga7a4118c2e5389caa67b1f5404e10cef6',1,'RigidBodyDynamics']]],
-  ['forwarddynamicsconstraintsrangespacesparse',['ForwardDynamicsConstraintsRangeSpaceSparse',['../d3/d7d/group__constraints__group.html#gafbdff81ed0bc8636ee03b15e0681574e',1,'RigidBodyDynamics']]],
-  ['forwarddynamicscontactskokkevis',['ForwardDynamicsContactsKokkevis',['../d3/d7d/group__constraints__group.html#gaa9cff799e1e2fc962658fe378708b720',1,'RigidBodyDynamics']]],
-  ['forwarddynamicslagrangian',['ForwardDynamicsLagrangian',['../d6/d63/group__dynamics__group.html#gab13a6bfb25e543108bb2aa5e37c9d6a0',1,'RigidBodyDynamics']]],
-  ['fromaxisangle',['fromAxisAngle',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4579b23f2d0d8c83a2822522cbb9e484',1,'RigidBodyDynamics::Math::Quaternion']]],
-  ['fromglrotate',['fromGLRotate',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#ae646f75e509729bddfa51a3c9f61ad4a',1,'RigidBodyDynamics::Math::Quaternion']]],
-  ['frommatrix',['fromMatrix',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4bfc5f86bc9aa2b95c30f5057bf3317e',1,'RigidBodyDynamics::Math::Quaternion']]],
-  ['fromxyzangles',['fromXYZAngles',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4284216adc00a7f595d993f1f1495036',1,'RigidBodyDynamics::Math::Quaternion']]],
-  ['fromyxzangles',['fromYXZAngles',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a16d25e2a6d0da51b91c3199107f80fc4',1,'RigidBodyDynamics::Math::Quaternion']]],
-  ['fromzyxangles',['fromZYXAngles',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a93b64a977d46c09164e67eac0371e015',1,'RigidBodyDynamics::Math::Quaternion']]]
+  ['eval_5ff',['eval_f',['../d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a3a3f071ceb99f404841ff2f82e4c31fc',1,'RigidBodyDynamics::Addons::Muscle::FitTorqueMuscleParameters']]],
+  ['eval_5fg',['eval_g',['../d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a14e578bb183325cb028a464425263714',1,'RigidBodyDynamics::Addons::Muscle::FitTorqueMuscleParameters']]],
+  ['eval_5fgrad_5ff',['eval_grad_f',['../d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a6a087a369e49c54aea3da4e90c8cfbd1',1,'RigidBodyDynamics::Addons::Muscle::FitTorqueMuscleParameters']]],
+  ['eval_5fh',['eval_h',['../d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a986bf39e57e62ca566818cbb2d32bb33',1,'RigidBodyDynamics::Addons::Muscle::FitTorqueMuscleParameters']]],
+  ['eval_5fjac_5fg',['eval_jac_g',['../d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a679632d899d5abf588ba2e3126fc2ebb',1,'RigidBodyDynamics::Addons::Muscle::FitTorqueMuscleParameters']]]
 ];

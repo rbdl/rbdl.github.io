@@ -80,12 +80,18 @@ $(document).ready(function(){initNavTree('de/d92/group__kinematics__group.html',
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Kinematics</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html">InverseKinematicsConstraintSet</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga0d31fd661b541e25d45f950189928964"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#ga0d31fd661b541e25d45f950189928964">UpdateKinematics</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDot)</td></tr>
@@ -127,10 +133,36 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa5eabd37ff8b0925d2ecbf49fee1a8a7"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#gaa5eabd37ff8b0925d2ecbf49fee1a8a7">InverseKinematics</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Qinit, const std::vector&lt; unsigned int &gt; &amp;body_id, const std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &gt; &amp;body_point, const std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> &gt; &amp;target_pos, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Qres, double step_tol=1.0e-12, double lambda=0.01, unsigned int max_iter=50)</td></tr>
 <tr class="memdesc:gaa5eabd37ff8b0925d2ecbf49fee1a8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the inverse kinematics iteratively using a damped Levenberg-Marquardt method (also known as Damped Least Squares method)  <a href="../../de/d92/group__kinematics__group.html#gaa5eabd37ff8b0925d2ecbf49fee1a8a7">More...</a><br /></td></tr>
 <tr class="separator:gaa5eabd37ff8b0925d2ecbf49fee1a8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga140cb5e0796f8d0fc9e2d1f4b3055e64"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#ga140cb5e0796f8d0fc9e2d1f4b3055e64">CalcAngularVelocityfromMatrix</a> (const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a0a52243d8fc9637b5f77fb50d87da506">Matrix3d</a> &amp;RotMat)</td></tr>
+<tr class="separator:ga140cb5e0796f8d0fc9e2d1f4b3055e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee27e8700afaea590a843138e1e9799d"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d92/group__kinematics__group.html#gaee27e8700afaea590a843138e1e9799d">InverseKinematics</a> (<a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Qinit, <a class="el" href="../../d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html">InverseKinematicsConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Qres)</td></tr>
+<tr class="separator:gaee27e8700afaea590a843138e1e9799d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <dl class="section note"><dt>Note</dt><dd>Please note that in the Rigid Body Dynamics Library all angles are specified in radians. </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga140cb5e0796f8d0fc9e2d1f4b3055e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga140cb5e0796f8d0fc9e2d1f4b3055e64">&#9670;&nbsp;</a></span>CalcAngularVelocityfromMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RBDL_DLLAPI <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a7767bdaca432311831fb667184fb65d5">Math::Vector3d</a> CalcAngularVelocityfromMatrix </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a0a52243d8fc9637b5f77fb50d87da506">Matrix3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>RotMat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00701">701</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#ae65d73ca9f35081b80df981f50071afd">RigidBodyDynamics::Math::Vector3dZero</a>.</p>
+
+</div>
+</div>
 <a id="gac97b34177c2973ae953959e1b199dd17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gac97b34177c2973ae953959e1b199dd17">&#9670;&nbsp;</a></span>CalcBaseToBodyCoordinates()</h2>
 
@@ -190,7 +222,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">192</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>.</p>
 
 </div>
 </div>
@@ -253,9 +285,9 @@ Functions</h2></td></tr>
 <p>The result will be returned via the G argument and represents the body Jacobian expressed at the origin of the body.</p>
 <dl class="section note"><dt>Note</dt><dd>This function only evaluates the entries of G that are non-zero. One Before calling this function one has to ensure that all other values have been set to zero, e.g. by calling G.setZero(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00372">372</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00361">361</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00200">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00202">Model::mCustomJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00196">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00203">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00201">Model::mCustomJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00195">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>.</p>
 
 </div>
 </div>
@@ -316,9 +348,9 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a 3-D vector with coordinates of the point in base coordinates </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">159</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">158</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>.</p>
 
 </div>
 </div>
@@ -372,9 +404,9 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An orthonormal 3x3 matrix that rotates vectors from base coordinates to body coordinates. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00224">224</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00225">225</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>.</p>
 
 </div>
 </div>
@@ -451,9 +483,9 @@ Functions</h2></td></tr>
 <p>The kinematic state of the model has to be updated before valid values can be obtained. This can either be done by calling <a class="el" href="../../de/d92/group__kinematics__group.html#ga0d31fd661b541e25d45f950189928964" title="Updates and computes velocities and accelerations of the bodies. ">UpdateKinematics()</a> or setting the last parameter update_kinematics to true (default).</p>
 <dl class="section warning"><dt>Warning</dt><dd>If this function is called after <a class="el" href="../../d6/d63/group__dynamics__group.html#ga941bad8e3b7323aaa4a333922fd90480" title="Computes forward dynamics with the Articulated Body Algorithm. ">ForwardDynamics()</a> without an update of the kinematic state one has to add the gravity acceleration has to be added to the result. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00517">517</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00509">509</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00224">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00023">RigidBodyDynamics::UpdateKinematics()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00225">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00024">RigidBodyDynamics::UpdateKinematics()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
 
 </div>
 </div>
@@ -530,9 +562,9 @@ Functions</h2></td></tr>
 <p>The kinematic state of the model has to be updated before valid values can be obtained. This can either be done by calling <a class="el" href="../../de/d92/group__kinematics__group.html#ga0d31fd661b541e25d45f950189928964" title="Updates and computes velocities and accelerations of the bodies. ">UpdateKinematics()</a> or setting the last parameter update_kinematics to true (default).</p>
 <dl class="section warning"><dt>Warning</dt><dd>If this function is called after <a class="el" href="../../d6/d63/group__dynamics__group.html#ga941bad8e3b7323aaa4a333922fd90480" title="Computes forward dynamics with the Articulated Body Algorithm. ">ForwardDynamics()</a> without an update of the kinematic state one has to add the gravity acceleration has to be added to the result. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00564">564</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00558">558</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00224">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00023">RigidBodyDynamics::UpdateKinematics()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00225">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00024">RigidBodyDynamics::UpdateKinematics()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
 
 </div>
 </div>
@@ -602,9 +634,9 @@ Functions</h2></td></tr>
 <p>The result will be returned via the G argument.</p>
 <dl class="section note"><dt>Note</dt><dd>This function only evaluates the entries of G that are non-zero. One Before calling this function one has to ensure that all other values have been set to zero, e.g. by calling G.setZero(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00246">246</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00247">247</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00200">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00202">Model::mCustomJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00196">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00203">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00201">Model::mCustomJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00195">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>.</p>
 
 </div>
 </div>
@@ -674,9 +706,9 @@ Functions</h2></td></tr>
 <p>The result will be returned via the G argument.</p>
 <dl class="section note"><dt>Note</dt><dd>This function only evaluates the entries of G that are non-zero. One Before calling this function one has to ensure that all other values have been set to zero, e.g. by calling G.setZero(). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00310">310</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00305">305</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00200">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00202">Model::mCustomJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00196">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00203">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00201">Model::mCustomJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00195">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>.</p>
 
 </div>
 </div>
@@ -744,9 +776,9 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cartesian velocity of the point in global frame (output) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00436">436</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00417">417</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00224">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00380">Model::IsBodyId()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00225">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00379">Model::IsBodyId()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
 
 </div>
 </div>
@@ -814,14 +846,14 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The a 6-D vector for which the first three elements are the angular velocity and the last three elements the linear velocity in the global reference system. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00480">480</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00466">466</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00224">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00254">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00380">Model::IsBodyId()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00371">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00241">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00159">SpatialTransform::apply()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00192">RigidBodyDynamics::CalcBaseToBodyCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00225">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00253">Model::fixed_body_discriminator</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00379">Model::IsBodyId()</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00370">Model::IsFixedBodyId()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00240">Model::mFixedBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>.</p>
 
 </div>
 </div>
 <a id="gaa5eabd37ff8b0925d2ecbf49fee1a8a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa5eabd37ff8b0925d2ecbf49fee1a8a7">&#9670;&nbsp;</a></span>InverseKinematics()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5eabd37ff8b0925d2ecbf49fee1a8a7">&#9670;&nbsp;</a></span>InverseKinematics() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -914,9 +946,53 @@ Functions</h2></td></tr>
 <p>The parameter <img class="formulaInl" alt="$\lambda$" src="../../form_11.png"/> is the damping factor that has to be chosen carefully. In case of unreachable positions higher values (e.g 0.9) can be helpful. Otherwise values of 0.0001, 0.001, 0.01, 0.1 might yield good results. See the literature for best practices.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The actual accuracy might be rather low (~1.0e-2)! Use this function with a grain of suspicion. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00606">606</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00604">604</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00159">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00246">RigidBodyDynamics::CalcPointJacobian()</a>, <a class="el" href="../../df/d59/rbdl__mathutils_8cc_source.html#l00036">RigidBodyDynamics::Math::LinSolveGaussElimPivot()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00247">RigidBodyDynamics::CalcPointJacobian()</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
+
+</div>
+</div>
+<a id="gaee27e8700afaea590a843138e1e9799d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee27e8700afaea590a843138e1e9799d">&#9670;&nbsp;</a></span>InverseKinematics() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RBDL_DLLAPI bool InverseKinematics </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d19/struct_rigid_body_dynamics_1_1_model.html">Model</a> &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>Qinit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html">InverseKinematicsConstraintSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>CS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>Qres</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00793">793</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00384">InverseKinematicsConstraintSet::body_ids</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00385">InverseKinematicsConstraintSet::body_points</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00701">RigidBodyDynamics::CalcAngularVelocityfromMatrix()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00158">RigidBodyDynamics::CalcBodyToBaseCoordinates()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00225">RigidBodyDynamics::CalcBodyWorldOrientation()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00305">RigidBodyDynamics::CalcPointJacobian6D()</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00388">InverseKinematicsConstraintSet::constraint_row_index</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00383">InverseKinematicsConstraintSet::constraint_type</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00365">InverseKinematicsConstraintSet::ConstraintTypeFull</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00364">InverseKinematicsConstraintSet::ConstraintTypeOrientation</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00363">InverseKinematicsConstraintSet::ConstraintTypePosition</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00372">InverseKinematicsConstraintSet::e</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00380">InverseKinematicsConstraintSet::error_norm</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00371">InverseKinematicsConstraintSet::G</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00370">InverseKinematicsConstraintSet::J</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00375">InverseKinematicsConstraintSet::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00377">InverseKinematicsConstraintSet::max_steps</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00374">InverseKinematicsConstraintSet::num_constraints</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00376">InverseKinematicsConstraintSet::num_steps</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00156">Model::qdot_size</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00378">InverseKinematicsConstraintSet::step_tol</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00387">InverseKinematicsConstraintSet::target_orientations</a>, <a class="el" href="../../d0/dee/_kinematics_8h_source.html#l00386">InverseKinematicsConstraintSet::target_positions</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
 
 </div>
 </div>
@@ -970,9 +1046,9 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00023">23</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00024">24</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00208">Model::c</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00182">Model::c_J</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00403">RigidBodyDynamics::Math::crossm()</a>, <a class="el" href="../../d2/d03/_joint_8cc_source.html#l00021">RigidBodyDynamics::jcalc()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00200">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00202">Model::mCustomJoints</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00682">CustomJoint::mDoFCount</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00196">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00181">Model::v_J</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00180">Model::X_J</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00236">Model::X_lambda</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00188">Model::X_T</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00207">Model::c</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00181">Model::c_J</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00403">RigidBodyDynamics::Math::crossm()</a>, <a class="el" href="../../d2/d03/_joint_8cc_source.html#l00022">RigidBodyDynamics::jcalc()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00203">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00201">Model::mCustomJoints</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00693">CustomJoint::mDoFCount</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00195">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00180">Model::v_J</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00235">Model::X_lambda</a>.</p>
 
 </div>
 </div>
@@ -1029,7 +1105,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00078">78</a> of file <a class="el" href="../../d4/de5/_kinematics_8cc_source.html">Kinematics.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00208">Model::c</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00182">Model::c_J</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00403">RigidBodyDynamics::Math::crossm()</a>, <a class="el" href="../../d2/d03/_joint_8cc_source.html#l00021">RigidBodyDynamics::jcalc()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00200">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00263">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00202">Model::mCustomJoints</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00682">CustomJoint::mDoFCount</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00196">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00181">Model::v_J</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00238">Model::X_base</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00180">Model::X_J</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00236">Model::X_lambda</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00188">Model::X_T</a>.</p>
+<p class="reference">References <a class="el" href="../../da/ded/_model_8h_source.html#l00168">Model::a</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00207">Model::c</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00181">Model::c_J</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00403">RigidBodyDynamics::Math::crossm()</a>, <a class="el" href="../../d2/d03/_joint_8cc_source.html#l00022">RigidBodyDynamics::jcalc()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00203">RigidBodyDynamics::JointTypeCustom</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00127">Model::lambda</a>, <a class="el" href="../../da/def/_logging_8h_source.html#l00023">LOG</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00262">Model::mBodies</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00201">Model::mCustomJoints</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00693">CustomJoint::mDoFCount</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00175">Model::mJoints</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00195">Model::multdof3_S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00148">Model::q_size</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00177">Model::S</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00166">Model::v</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00180">Model::v_J</a>, <a class="el" href="../../da/ded/_model_8h_source.html#l00237">Model::X_base</a>, and <a class="el" href="../../da/ded/_model_8h_source.html#l00235">Model::X_lambda</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1114,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 8 2020 21:37:49 for Rigid Body Dynamics Library by
+    <li class="footer">Generated on Sun Sep 27 2020 14:07:31 for Rigid Body Dynamics Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

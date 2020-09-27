@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['matrix3_5ft',['Matrix3_t',['../d4/d57/class_matrix3__t.html#ac42dd59d85d4740f6197558eff5b923f',1,'Matrix3_t::Matrix3_t(const Eigen::MatrixBase&lt; OtherDerived &gt; &amp;other)'],['../d4/d57/class_matrix3__t.html#aff9213e161192c991ed6677b32864d87',1,'Matrix3_t::Matrix3_t()'],['../d4/d57/class_matrix3__t.html#aca4bef242ed82dcfa6138080a6a34b09',1,'Matrix3_t::Matrix3_t(const double &amp;m00, const double &amp;m01, const double &amp;m02, const double &amp;m10, const double &amp;m11, const double &amp;m12, const double &amp;m20, const double &amp;m21, const double &amp;m22)']]],
-  ['matrix3didentity',['Matrix3dIdentity',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a9dba565462248c65a106f7ab53bc117e',1,'RigidBodyDynamics::Math']]],
-  ['matrix3dzero',['Matrix3dZero',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#abb8e1702aeed39b25466dcdfa656c82e',1,'RigidBodyDynamics::Math']]],
-  ['matrixfromptr',['MatrixFromPtr',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a30d3861b749329fbcbc68e78f33e4805',1,'RigidBodyDynamics::Math']]],
-  ['millard2016torquemuscle',['Millard2016TorqueMuscle',['../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html#ad9f17adfe0391d747aecad1d082b5060',1,'RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle::Millard2016TorqueMuscle()'],['../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html#ab07a13ad6313ff48a760998eea086039',1,'RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle::Millard2016TorqueMuscle(DataSet::item dataSet, const SubjectInformation &amp;subjectInfo, int jointTorque, double jointAngleOffsetRelativeToDoxygenFigures, double signOfJointAngleRelativeToDoxygenFigures, double signOfJointTorqueToDoxygenFigures, const std::string &amp;name)']]],
-  ['model',['Model',['../d7/d19/struct_rigid_body_dynamics_1_1_model.html#a30c57abda5ed227c85b50007cee876db',1,'RigidBodyDynamics::Model']]]
+  ['linear',['Linear',['../d1/dc6/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_function___1_1_linear.html#a8bc98ef16cf0f286da592ec5d8758b10',1,'RigidBodyDynamics::Addons::Geometry::Function_::Linear']]],
+  ['linsolvegausselimpivot',['LinSolveGaussElimPivot',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a5e14d1bf71420c69b8dc1353509812df',1,'RigidBodyDynamics::Math']]],
+  ['loggingguard',['LoggingGuard',['../da/dd1/class_logging_guard.html#a7ee4e17148a8ffd4f9c07c5b6d66375f',1,'LoggingGuard']]],
+  ['luamodelgetconstraintsetnames',['LuaModelGetConstraintSetNames',['../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ac5dd5a379efc5535bb7e3406fe110314',1,'RigidBodyDynamics::Addons']]],
+  ['luamodelreadfromfile',['LuaModelReadFromFile',['../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ae03a52e3043f8c8317c723c441747286',1,'RigidBodyDynamics::Addons']]],
+  ['luamodelreadfromfilewithconstraints',['LuaModelReadFromFileWithConstraints',['../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a73b35d6b099d1a180b440afb4e28f08e',1,'RigidBodyDynamics::Addons']]],
+  ['luamodelreadfromluastate',['LuaModelReadFromLuaState',['../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a3a10a02cce90a3d34ad86df5a3939322',1,'RigidBodyDynamics::Addons']]]
 ];

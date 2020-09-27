@@ -52,7 +52,6 @@ var struct_rigid_body_dynamics_1_1_model =
     [ "v", "d7/d19/struct_rigid_body_dynamics_1_1_model.html#abf026557136131c0bed44611e1411550", null ],
     [ "v_J", "d7/d19/struct_rigid_body_dynamics_1_1_model.html#abf05774c9d19055af172a31b88f433a8", null ],
     [ "X_base", "d7/d19/struct_rigid_body_dynamics_1_1_model.html#a257394c45f37865d4df0fd943fd005be", null ],
-    [ "X_J", "d7/d19/struct_rigid_body_dynamics_1_1_model.html#a6c1fb9194fc1dbb4e20bde9288d8ef8b", null ],
     [ "X_lambda", "d7/d19/struct_rigid_body_dynamics_1_1_model.html#a2fc7185c6af1075075ccc5dc65434e4c", null ],
     [ "X_T", "d7/d19/struct_rigid_body_dynamics_1_1_model.html#a6fd5350af2da8d25ab727ae0e43167a1", null ]
 ];

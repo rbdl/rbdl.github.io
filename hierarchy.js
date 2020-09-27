@@ -20,6 +20,7 @@ var hierarchy =
     ] ],
     [ "GenderSet", "df/db4/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gender_set.html", null ],
     [ "Gymnast", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html", null ],
+    [ "InverseKinematicsConstraintSet", "d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html", null ],
     [ "Joint", "d0/d8f/struct_rigid_body_dynamics_1_1_joint.html", null ],
     [ "JointTorqueSet", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html", null ],
     [ "LoggingGuard", "da/dd1/class_logging_guard.html", null ],
@@ -37,8 +38,14 @@ var hierarchy =
     [ "SpatialRigidBodyInertia", "da/d1e/struct_rigid_body_dynamics_1_1_math_1_1_spatial_rigid_body_inertia.html", null ],
     [ "SpatialTransform", "dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html", null ],
     [ "SubjectInformation", "d6/d84/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_subject_information.html", null ],
+    [ "TNLP", null, [
+      [ "FitTorqueMuscleParameters", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html", null ]
+    ] ],
+    [ "TorqueMuscleDataFeatures", "d3/d64/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_data_features.html", null ],
+    [ "TorqueMuscleFittingToolkit", "d2/dc4/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_fitting_toolkit.html", null ],
     [ "TorqueMuscleFunctionFactory", "d1/d80/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_function_factory.html", null ],
     [ "TorqueMuscleInfo", "db/da5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_info.html", null ],
+    [ "TorqueMuscleParameterFittingData", "d0/daa/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_parameter_fitting_data.html", null ],
     [ "TorqueMuscleSummary", "db/d8c/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_summary.html", null ],
     [ "Vector2d", null, [
       [ "Vector2_t", "d8/d09/class_vector2__t.html", null ]

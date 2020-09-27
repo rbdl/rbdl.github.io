@@ -13,6 +13,7 @@ var _joint_8h =
       [ "JointTypeEulerZYX", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9ac2f4c70c2caceb1b4f8f67168bedf77c", null ],
       [ "JointTypeEulerXYZ", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9aa4eb1415202badb8467b015911c7c374", null ],
       [ "JointTypeEulerYXZ", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9a489a62de9db7bb0a9e0b8e0b24b892ed", null ],
+      [ "JointTypeEulerZXY", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9a401ccbb7a8b95ff7c4c39b7dfb7d64c3", null ],
       [ "JointTypeTranslationXYZ", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9aabccc5b6a23fd4725c4035cf28fd06e8", null ],
       [ "JointTypeFloatingBase", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9ac1686a3567e40fae42bf43bcd1842c15", null ],
       [ "JointTypeFixed", "d7/d31/_joint_8h.html#af92f943e3dc4a7d1fb537fa481094fa9a267538915c88ea830f0abe867a793cdd", null ],

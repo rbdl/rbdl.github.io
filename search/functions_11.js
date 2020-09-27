@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['updatekinematics',['UpdateKinematics',['../de/d92/group__kinematics__group.html#ga0d31fd661b541e25d45f950189928964',1,'RigidBodyDynamics']]],
-  ['updatekinematicscustom',['UpdateKinematicsCustom',['../de/d92/group__kinematics__group.html#ga86477e3d5ad2147abced4323f349c549',1,'RigidBodyDynamics']]],
-  ['updatetorquemusclecurves',['updateTorqueMuscleCurves',['../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html#aa2b5a0934ecf388cdcbf0078937d8df3',1,'RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle']]],
-  ['updsmoothsegmentedfunction',['updSmoothSegmentedFunction',['../dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#aca13f0f847b53c8ffee63c1ca60a3a05',1,'RigidBodyDynamics::Addons::Geometry::SmoothSegmentedFunction']]],
-  ['urdfreadfromfile',['URDFReadFromFile',['../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a81abcf364eb280650dad7f60fbccf5d6',1,'RigidBodyDynamics::Addons']]],
-  ['urdfreadfromstring',['URDFReadFromString',['../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ad8d0b0202a7e40662ef21fdfb5f5bc29',1,'RigidBodyDynamics::Addons']]]
+  ['timestep',['timeStep',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a0cc356a1b646797f9615b20f209e75df',1,'RigidBodyDynamics::Math::Quaternion']]],
+  ['tomatrix',['toMatrix',['../d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4eb6a4b614caed0e46a708c20e57254a',1,'RigidBodyDynamics::Math::Quaternion::toMatrix()'],['../da/d1e/struct_rigid_body_dynamics_1_1_math_1_1_spatial_rigid_body_inertia.html#a31667641a1358e9f4aaada1f5d11b491',1,'RigidBodyDynamics::Math::SpatialRigidBodyInertia::toMatrix()'],['../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html#a31667641a1358e9f4aaada1f5d11b491',1,'RigidBodyDynamics::Math::SpatialTransform::toMatrix()']]],
+  ['tomatrixadjoint',['toMatrixAdjoint',['../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html#aeec34ef47c3deb674a849ca5664ab9ac',1,'RigidBodyDynamics::Math::SpatialTransform']]],
+  ['tomatrixtranspose',['toMatrixTranspose',['../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html#ad429916eec16320682abe0420c1454da',1,'RigidBodyDynamics::Math::SpatialTransform']]],
+  ['torquemuscleinfo',['TorqueMuscleInfo',['../db/da5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_info.html#a91672e44ee50355eb10054697b5a4804',1,'RigidBodyDynamics::Addons::Muscle::TorqueMuscleInfo']]],
+  ['torquemuscleparameterfittingdata',['TorqueMuscleParameterFittingData',['../d0/daa/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_parameter_fitting_data.html#a09489c83a3897a8d7e927c562fcd6b90',1,'RigidBodyDynamics::Addons::Muscle::TorqueMuscleParameterFittingData']]],
+  ['torquemusclesummary',['TorqueMuscleSummary',['../db/d8c/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_summary.html#a2a9b74b6fcd651e25e043411057f2ecb',1,'RigidBodyDynamics::Addons::Muscle::TorqueMuscleSummary']]]
 ];
