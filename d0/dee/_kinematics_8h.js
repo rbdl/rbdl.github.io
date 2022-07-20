@@ -11,7 +11,7 @@ var _kinematics_8h =
     [ "CalcPointJacobian6D", "d0/dee/_kinematics_8h.html#ga4f108816ae5935fed35c7f6d5633e3f4", null ],
     [ "CalcPointVelocity", "d0/dee/_kinematics_8h.html#gada216dda9915ee446f75325f97248682", null ],
     [ "CalcPointVelocity6D", "d0/dee/_kinematics_8h.html#gaf8af93d9e09c700f43db8de4152ffff8", null ],
-    [ "InverseKinematics", "d0/dee/_kinematics_8h.html#gaa5eabd37ff8b0925d2ecbf49fee1a8a7", null ],
+    [ "InverseKinematics", "d0/dee/_kinematics_8h.html#gae99a5094d7dabbe877c01b66868b334f", null ],
     [ "InverseKinematics", "d0/dee/_kinematics_8h.html#gaee27e8700afaea590a843138e1e9799d", null ],
     [ "UpdateKinematics", "d0/dee/_kinematics_8h.html#ga0d31fd661b541e25d45f950189928964", null ],
     [ "UpdateKinematicsCustom", "d0/dee/_kinematics_8h.html#ga86477e3d5ad2147abced4323f349c549", null ]

@@ -23,6 +23,8 @@ var struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set =
       [ "WristSupination", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80aee24bef60cdb2ab53b88b0c53008c07a", null ],
       [ "LumbarExtension", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80a3e927c76b75b7191eb19eb6f96962fb7", null ],
       [ "LumbarFlexion", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80ace2b20867af3b1acc85e649f63312705", null ],
+      [ "UnitExtensor", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80a671489199e062cd5ad5864cf2c817bbf", null ],
+      [ "UnitFlexor", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80a24ec6c392dbeea4a93c01917ee60e027", null ],
       [ "Last", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80ac2a3856002491cf465725e8d1108f796", null ]
     ] ],
     [ "JointTorqueSet", "dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#ae2c81774ebab2445898fd16e8393f179", null ],

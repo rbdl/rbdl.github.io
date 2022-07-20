@@ -1,13 +1,8 @@
 var searchData=
 [
-  ['xrot',['Xrot',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aede94f4469094e427aadb5bfac289432',1,'RigidBodyDynamics::Math']]],
-  ['xrotx',['Xrotx',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a18354502c8adab27db997e36f7cf2c49',1,'RigidBodyDynamics::Math']]],
-  ['xrotx_5fmat',['Xrotx_mat',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a702f85381703dc0c5d22666e5ea3abe2',1,'RigidBodyDynamics::Math']]],
-  ['xroty',['Xroty',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3cff968a13f3feccd9ed227726e483c7',1,'RigidBodyDynamics::Math']]],
-  ['xroty_5fmat',['Xroty_mat',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a87e86785f82a72287039764db2b23b98',1,'RigidBodyDynamics::Math']]],
-  ['xrotz',['Xrotz',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a4dfaaa62f86e3fef15474210d8a28979',1,'RigidBodyDynamics::Math']]],
-  ['xrotz_5fmat',['Xrotz_mat',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3d3232fa88bc7c89bb7652fa703dd742',1,'RigidBodyDynamics::Math']]],
-  ['xtrans',['Xtrans',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a59f1033376c57c4d65b701ec497deb18',1,'RigidBodyDynamics::Math']]],
-  ['xtrans_5fmat',['Xtrans_mat',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#ac5b4c10b6d51620db8501f1d4ed2804a',1,'RigidBodyDynamics::Math']]],
-  ['xtransrotzyxeuler',['XtransRotZYXEuler',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a10dea4f930468f00285f9cd43f0010a9',1,'RigidBodyDynamics::Math']]]
+  ['vector3_5ft_0',['Vector3_t',['../dc/da4/class_vector3__t.html#a4e14a618375828e30e9c1040c7affd44',1,'Vector3_t::Vector3_t(const Eigen::MatrixBase&lt; OtherDerived &gt; &amp;other)'],['../dc/da4/class_vector3__t.html#a4706924be0b8acbc1ea232e18393bb26',1,'Vector3_t::Vector3_t()'],['../dc/da4/class_vector3__t.html#a5d1c12f2e542b8af951c0980403095d6',1,'Vector3_t::Vector3_t(const double &amp;v0, const double &amp;v1, const double &amp;v2)']]],
+  ['vector3dzero_1',['Vector3dZero',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a9ca8a5202bce4ecdd359be32162e7190',1,'RigidBodyDynamics::Math']]],
+  ['vector4_5ft_2',['Vector4_t',['../d0/dcd/class_vector4__t.html#a533c1b9b66529193c003ed3322667ffe',1,'Vector4_t::Vector4_t(const Eigen::MatrixBase&lt; OtherDerived &gt; &amp;other)'],['../d0/dcd/class_vector4__t.html#a52b27396c03514754a4ed2ed6123ea1c',1,'Vector4_t::Vector4_t()'],['../d0/dcd/class_vector4__t.html#a0c400dfd23eb8af8b39c2f27f22ca3ce',1,'Vector4_t::Vector4_t(const double &amp;v0, const double &amp;v1, const double &amp;v2, const double &amp;v3)']]],
+  ['vectorcrossmatrix_3',['VectorCrossMatrix',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a6c02c130a58e277b11bbe057e7cbc22b',1,'RigidBodyDynamics::Math']]],
+  ['vectorfromptr_4',['VectorFromPtr',['../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a265093ac5dcd073a6f0426a3abd5e539',1,'RigidBodyDynamics::Math']]]
 ];

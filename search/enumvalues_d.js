@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['taumax',['TauMax',['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a1e0352d5bcd26c1b7e77e1eefc9df594aff2a8c8c0ef9f3d2d0a2d216f7765c04',1,'RigidBodyDynamics::Addons::Muscle::Gymnast']]],
-  ['tvathalfmaxconcentricvelocity',['TvAtHalfMaxConcentricVelocity',['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a1e0352d5bcd26c1b7e77e1eefc9df594a0aafa18c840da054a7cf94e5447336a1',1,'RigidBodyDynamics::Addons::Muscle::Gymnast']]],
-  ['tvatmaxeccentricvelocity',['TvAtMaxEccentricVelocity',['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a1e0352d5bcd26c1b7e77e1eefc9df594a744dcc3f61e550e7dce7da274d315e44',1,'RigidBodyDynamics::Addons::Muscle::Gymnast']]]
+  ['unitextensor_0',['UnitExtensor',['../dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80a671489199e062cd5ad5864cf2c817bbf',1,'RigidBodyDynamics::Addons::Muscle::JointTorqueSet::UnitExtensor()'],['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a671489199e062cd5ad5864cf2c817bbf',1,'RigidBodyDynamics::Addons::Muscle::Gymnast::UnitExtensor()']]],
+  ['unitflexor_1',['UnitFlexor',['../dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80a24ec6c392dbeea4a93c01917ee60e027',1,'RigidBodyDynamics::Addons::Muscle::JointTorqueSet::UnitFlexor()'],['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a24ec6c392dbeea4a93c01917ee60e027',1,'RigidBodyDynamics::Addons::Muscle::Gymnast::UnitFlexor()']]]
 ];

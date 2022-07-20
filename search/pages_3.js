@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joint_20modeling',['Joint Modeling',['../df/dbe/joint_description.html',1,'index']]]
+  ['kinematics_0',['Kinematics',['../d5/d4d/kinematics_page.html',1,'']]]
 ];

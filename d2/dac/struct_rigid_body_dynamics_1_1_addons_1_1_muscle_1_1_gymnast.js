@@ -31,6 +31,8 @@ var struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast =
       [ "WristSupination", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457aee24bef60cdb2ab53b88b0c53008c07a", null ],
       [ "LumbarExtension", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a3e927c76b75b7191eb19eb6f96962fb7", null ],
       [ "LumbarFlexion", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457ace2b20867af3b1acc85e649f63312705", null ],
+      [ "UnitExtensor", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a671489199e062cd5ad5864cf2c817bbf", null ],
+      [ "UnitFlexor", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a24ec6c392dbeea4a93c01917ee60e027", null ],
       [ "LastJointTorque", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a69fe458cb6f818f456e705d1376960ac", null ]
     ] ],
     [ "TableIndex", "d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a1e0352d5bcd26c1b7e77e1eefc9df594", [

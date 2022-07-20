@@ -10,7 +10,7 @@ var class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parame
     [ "get_bounds_info", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#ada24ab5a9b507a6e99a4315ac69361ac", null ],
     [ "get_nlp_info", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a433f8892fcc4cec4c26fa879d4e2aca3", null ],
     [ "get_starting_point", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a03693db0f47986d67fd318178378566a", null ],
-    [ "getConstraintError", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a5dffe3fac35084e0f6e26802c2a14558", null ],
+    [ "getConstraintError", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a5e028ee9621bf7b2087c5023b2dfbeaf", null ],
     [ "getObjectiveValue", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a340199108d7279a16fbcd5429aa1bd80", null ],
     [ "getSolutionActiveTorqueAngleAngleScaling", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a9dd777714ac1884d7aa67c3e70350ca5", null ],
     [ "getSolutionMaximumActiveIsometricTorqueScale", "d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a442d7d07502c1d6e252df0882b188817", null ],

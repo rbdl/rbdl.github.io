@@ -12,10 +12,10 @@ var _millard2016_torque_muscle_8h =
     [ "TorqueMuscleParameterFittingData", "d0/daa/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_parameter_fitting_data.html", "d0/daa/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_parameter_fitting_data" ],
     [ "TorqueMuscleDataFeatures", "d3/d64/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_data_features.html", "d3/d64/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_data_features" ],
     [ "Millard2016TorqueMuscle", "d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html", "d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle" ],
-    [ "AgeGroupSet", "d0/dd8/_millard2016_torque_muscle_8h.html#aa16f81cd84cd2818f060d4829574bdff", null ],
-    [ "Anderson2007", "d0/dd8/_millard2016_torque_muscle_8h.html#afe85601ecd24b5e1708167e573606da6", null ],
-    [ "DataSet", "d0/dd8/_millard2016_torque_muscle_8h.html#a29407c82bb2cc7b97ad0ba53dfc7488e", null ],
-    [ "GenderSet", "d0/dd8/_millard2016_torque_muscle_8h.html#a246de485ac9580dbb581dbf5f4c4cd66", null ],
-    [ "Gymnast", "d0/dd8/_millard2016_torque_muscle_8h.html#a2abfa53463747c1d508cdc5e333de829", null ],
-    [ "JointTorqueSet", "d0/dd8/_millard2016_torque_muscle_8h.html#a31c448a81f0589a15214bee25fc06115", null ]
+    [ "AgeGroupSet", "d0/dd8/_millard2016_torque_muscle_8h.html#a8591a1879d533161694f460dd17a571f", null ],
+    [ "Anderson2007", "d0/dd8/_millard2016_torque_muscle_8h.html#a15eee469f8b64b5af4f6e0b623130270", null ],
+    [ "DataSet", "d0/dd8/_millard2016_torque_muscle_8h.html#a5fc6ca80cb9deb68cbb7852524c16f02", null ],
+    [ "GenderSet", "d0/dd8/_millard2016_torque_muscle_8h.html#a6b5bf4bc3842988b3e4912926b2d142e", null ],
+    [ "Gymnast", "d0/dd8/_millard2016_torque_muscle_8h.html#acd3ae50d2db9f88e1d76aa5f72e591c3", null ],
+    [ "JointTorqueSet", "d0/dd8/_millard2016_torque_muscle_8h.html#ab6ced260d2d9e070997d38ed4a122036", null ]
 ];

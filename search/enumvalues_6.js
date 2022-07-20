@@ -1,25 +1,5 @@
 var searchData=
 [
-  ['jointtype1dof',['JointType1DoF',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a870561f08c7ecf9ab7c9060352849081',1,'RigidBodyDynamics']]],
-  ['jointtype2dof',['JointType2DoF',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9add43566b9ea1428e43e7d0be6a39a697',1,'RigidBodyDynamics']]],
-  ['jointtype3dof',['JointType3DoF',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a01df15c6f011274ed4d7ff1fb247d309',1,'RigidBodyDynamics']]],
-  ['jointtype4dof',['JointType4DoF',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a294fc9ff6ba63ba8b6e18f82e20fbb61',1,'RigidBodyDynamics']]],
-  ['jointtype5dof',['JointType5DoF',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9abc918f2c57b9211fdc52f49b5e1ef802',1,'RigidBodyDynamics']]],
-  ['jointtype6dof',['JointType6DoF',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ae218059ef9efc25627f28704b219cbac',1,'RigidBodyDynamics']]],
-  ['jointtypecustom',['JointTypeCustom',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a66c042f76ee73c228974834f24faae3e',1,'RigidBodyDynamics']]],
-  ['jointtypeeulerxyz',['JointTypeEulerXYZ',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9aa4eb1415202badb8467b015911c7c374',1,'RigidBodyDynamics']]],
-  ['jointtypeeuleryxz',['JointTypeEulerYXZ',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a489a62de9db7bb0a9e0b8e0b24b892ed',1,'RigidBodyDynamics']]],
-  ['jointtypeeulerzxy',['JointTypeEulerZXY',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a401ccbb7a8b95ff7c4c39b7dfb7d64c3',1,'RigidBodyDynamics']]],
-  ['jointtypeeulerzyx',['JointTypeEulerZYX',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ac2f4c70c2caceb1b4f8f67168bedf77c',1,'RigidBodyDynamics']]],
-  ['jointtypefixed',['JointTypeFixed',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a267538915c88ea830f0abe867a793cdd',1,'RigidBodyDynamics']]],
-  ['jointtypefloatingbase',['JointTypeFloatingBase',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ac1686a3567e40fae42bf43bcd1842c15',1,'RigidBodyDynamics']]],
-  ['jointtypehelical',['JointTypeHelical',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a715fa5b231a2e8474e71fb4d4e5096bc',1,'RigidBodyDynamics']]],
-  ['jointtypeprismatic',['JointTypePrismatic',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a8cd28060756e70154519bb395f41eb41',1,'RigidBodyDynamics']]],
-  ['jointtyperevolute',['JointTypeRevolute',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ac5a90ada4779414e3f631d1460ed09b7',1,'RigidBodyDynamics']]],
-  ['jointtyperevolutex',['JointTypeRevoluteX',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a2850b0a8463d92784857df7eb723dede',1,'RigidBodyDynamics']]],
-  ['jointtyperevolutey',['JointTypeRevoluteY',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a3d522588c0ca9c10d59df7466424fae7',1,'RigidBodyDynamics']]],
-  ['jointtyperevolutez',['JointTypeRevoluteZ',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9a1533c219fa66a1c1a4dba6359f2b924c',1,'RigidBodyDynamics']]],
-  ['jointtypespherical',['JointTypeSpherical',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9ab331aa31b1d88c2a56907ce88cf7d958',1,'RigidBodyDynamics']]],
-  ['jointtypetranslationxyz',['JointTypeTranslationXYZ',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9aabccc5b6a23fd4725c4035cf28fd06e8',1,'RigidBodyDynamics']]],
-  ['jointtypeundefined',['JointTypeUndefined',['../dd/d16/namespace_rigid_body_dynamics.html#af92f943e3dc4a7d1fb537fa481094fa9af377cffd0546b0b7cf6d9947e5cc8df1',1,'RigidBodyDynamics']]]
+  ['kneeextension_0',['KneeExtension',['../dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80a923094f42c898feac000990727442072',1,'RigidBodyDynamics::Addons::Muscle::JointTorqueSet::KneeExtension()'],['../d1/de5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_anderson2007.html#a000fece0f528025bf03eb00a7f2ee457a923094f42c898feac000990727442072',1,'RigidBodyDynamics::Addons::Muscle::Anderson2007::KneeExtension()'],['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457a923094f42c898feac000990727442072',1,'RigidBodyDynamics::Addons::Muscle::Gymnast::KneeExtension()']]],
+  ['kneeflexion_1',['KneeFlexion',['../dd/d46/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_joint_torque_set.html#a4ed071da1d42b95e2465fb30952d9f80ab46f3874d08773598c530ee38558d448',1,'RigidBodyDynamics::Addons::Muscle::JointTorqueSet::KneeFlexion()'],['../d1/de5/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_anderson2007.html#a000fece0f528025bf03eb00a7f2ee457ab46f3874d08773598c530ee38558d448',1,'RigidBodyDynamics::Addons::Muscle::Anderson2007::KneeFlexion()'],['../d2/dac/struct_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_gymnast.html#a000fece0f528025bf03eb00a7f2ee457ab46f3874d08773598c530ee38558d448',1,'RigidBodyDynamics::Addons::Muscle::Gymnast::KneeFlexion()']]]
 ];

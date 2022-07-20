@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kinematics',['Kinematics',['../de/d92/group__kinematics__group.html',1,'']]]
+  ['kinematics_0',['Kinematics',['../de/d92/group__kinematics__group.html',1,'']]]
 ];

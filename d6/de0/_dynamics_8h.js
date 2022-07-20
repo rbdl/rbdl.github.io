@@ -1,9 +1,9 @@
 var _dynamics_8h =
 [
-    [ "CalcMInvTimesTau", "d6/de0/_dynamics_8h.html#gafef073ded6f7cbedc1bbfe61390feee2", null ],
-    [ "CompositeRigidBodyAlgorithm", "d6/de0/_dynamics_8h.html#ga16a9d225d96d260af451f69e258d0875", null ],
-    [ "ForwardDynamics", "d6/de0/_dynamics_8h.html#ga941bad8e3b7323aaa4a333922fd90480", null ],
-    [ "ForwardDynamicsLagrangian", "d6/de0/_dynamics_8h.html#gab13a6bfb25e543108bb2aa5e37c9d6a0", null ],
-    [ "InverseDynamics", "d6/de0/_dynamics_8h.html#ga370188f52ca9e7f933f90a03adf5fa1e", null ],
-    [ "NonlinearEffects", "d6/de0/_dynamics_8h.html#ga1782fbfb223812259d73fec58deff94e", null ]
+    [ "CalcMInvTimesTau", "d6/de0/_dynamics_8h.html#ga4cefa824d8b162e0dcca2ce5dfba040d", null ],
+    [ "CompositeRigidBodyAlgorithm", "d6/de0/_dynamics_8h.html#gab96bd7cf90ba4130b5f12dd0ad5668e9", null ],
+    [ "ForwardDynamics", "d6/de0/_dynamics_8h.html#gab0a1893d35ea090e594166a97bdda616", null ],
+    [ "ForwardDynamicsLagrangian", "d6/de0/_dynamics_8h.html#gaa091625c360c337a1392f0df14b8953f", null ],
+    [ "InverseDynamics", "d6/de0/_dynamics_8h.html#ga49d5bc731845cb44cea8c84bf933e3d6", null ],
+    [ "NonlinearEffects", "d6/de0/_dynamics_8h.html#ga71fcc25823fd22f830d3df99942ade74", null ]
 ];
