@@ -485,7 +485,7 @@ limb." Journal of biomechanics 40, no. 14 (2007): 3105-3113.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">angleAtOneNormTorque</td><td>The angle at which the Gaussian curve develops a value of 1.</td></tr>
-    <tr><td class="paramname">angularStandardDeviation</td><td>The angular deviation from the mean at which the Gaussian curve reaches a value of <img class="formulaInl" alt="$e^{-1/2}$" src="../../form_212.png" width="35" height="15"/>.</td></tr>
+    <tr><td class="paramname">angularStandardDeviation</td><td>The angular deviation from the mean at which the Gaussian curve reaches a value of <img class="formulaInl" alt="$e^{-1/2}$" src="../../form_212.png"/>.</td></tr>
     <tr><td class="paramname">curveName</td><td>The name of the joint torque this curve applies to. This curve name should have the name of the joint and the direction (e.g. hipExtensionTorqueMuscle) so that if this curve ever causes an exception, a user friendly error message can be displayed to the end user to help them debug their model.</td></tr>
     <tr><td class="paramname">smoothSegmentedFunctionToUpdate</td><td>A SmoothSegmentedFunction object that will be erased and filled with the coefficients that are defined by this curve.</td></tr>
   </table>
@@ -569,7 +569,7 @@ limb." Journal of biomechanics 40, no. 14 (2007): 3105-3113.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">angleAtOneNormTorque</td><td>The angle at which the Gaussian curve develops a value of 1.</td></tr>
-    <tr><td class="paramname">angularStandardDeviation</td><td>The angular deviation from the mean at which the Gaussian curve reaches a value of <img class="formulaInl" alt="$e^{-1/2}$" src="../../form_212.png" width="35" height="15"/>.</td></tr>
+    <tr><td class="paramname">angularStandardDeviation</td><td>The angular deviation from the mean at which the Gaussian curve reaches a value of <img class="formulaInl" alt="$e^{-1/2}$" src="../../form_212.png"/>.</td></tr>
     <tr><td class="paramname">minSlopeAtShoulders</td><td>The y-value at which the Bezier curve transitions from having a shape like a Gaussian curve to being linearly extrapolated.</td></tr>
     <tr><td class="paramname">minValueAtShoulders</td><td>The slope of the linear extrapolation of the Bezier curve for y-values that are less than minSlopeAtShoulders. The sign of minValueAtShoulders is automatically set so that it matches the curve near it (see the figure).</td></tr>
     <tr><td class="paramname">curviness</td><td>The dimensionless 'curviness' parameter that can vary between 0 (a line) to 1 (a smooth, but sharply bent elbow). A value of 0.5 is typical as it produces a graceful curve.</td></tr>
@@ -791,7 +791,7 @@ limb." Journal of biomechanics 40, no. 14 (2007): 3105-3113.</p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >This function produces a normalized tendon-torque-angle curve with a toe region that is in the range of <img class="formulaInl" alt="$\mathbf{t}_V$" src="../../form_211.png" width="18" height="14"/> [0,1./3,] after which the curve is linearly extrapolated.</p>
+<p >This function produces a normalized tendon-torque-angle curve with a toe region that is in the range of <img class="formulaInl" alt="$\mathbf{t}_V$" src="../../form_211.png"/> [0,1./3,] after which the curve is linearly extrapolated.</p>
 <div class="image">
 <img src="../../fig_MuscleAddon_TorqueMuscleFunctionFactory_TendonTorqueAngleCurveSimple.png" alt=""/>
 </div>
@@ -1034,9 +1034,9 @@ limb." Journal of biomechanics 40, no. 14 (2007): 3105-3113.</p>
   <table class="params">
     <tr><td class="paramname">tvAtEccentricOmegaMax</td><td>The value of the torque-velocity-multiplier at the maximum eccentric contraction velocity. This value must be</td></tr>
     <tr><td class="paramname">tvAtHalfConcentricOmegaMax</td><td>The value of the torque-velocity-</td></tr>
-    <tr><td class="paramname">slopeAtConcentricOmegaMax</td><td>The slope of the curve at a normalized angular velocity of -1. This slope is used to extrapolate <img class="formulaInl" alt="$\mathbf{t}_V$" src="../../form_211.png" width="18" height="14"/> for normalized angular velocities of less than -1.</td></tr>
+    <tr><td class="paramname">slopeAtConcentricOmegaMax</td><td>The slope of the curve at a normalized angular velocity of -1. This slope is used to extrapolate <img class="formulaInl" alt="$\mathbf{t}_V$" src="../../form_211.png"/> for normalized angular velocities of less than -1.</td></tr>
     <tr><td class="paramname">slopeNearEccentricOmegaMax</td><td>The slope of the eccentric side of the curve as the normalized angular velocity approaches 1.</td></tr>
-    <tr><td class="paramname">slopeAtEccentricOmegaMax</td><td>The slope of the curve at a normalized angular velocity of 1. This slope is used to extrapolate <img class="formulaInl" alt="$\mathbf{t}_V$" src="../../form_211.png" width="18" height="14"/> for normalized angular velocities of greater than 1.</td></tr>
+    <tr><td class="paramname">slopeAtEccentricOmegaMax</td><td>The slope of the curve at a normalized angular velocity of 1. This slope is used to extrapolate <img class="formulaInl" alt="$\mathbf{t}_V$" src="../../form_211.png"/> for normalized angular velocities of greater than 1.</td></tr>
     <tr><td class="paramname">eccentricCurviness</td><td>This parameter controls the shape of the curve between the normalized angular velocities of 0 and 1. An eccentricCurviness of 0 will flatten the elbow so that the curve closely follows a line that begins at (0,1) and ends at (1,tvAtEccentricOmegaMax). An eccentricCurviness of 1 will give the curve a strong elbow so that it quickly approaches the line that passes through the point (1,tvAtEccentricOmegaMax) and has a slope of slopeNearEccentricOmegaMax.</td></tr>
     <tr><td class="paramname">curveName</td><td>The name of the joint torque this curve applies to. This curve name should have the name of the joint and the direction (e.g. hipExtensionTorqueMuscle) so that if this curve ever causes an exception, a user friendly error message can be displayed to the end user to help them debug their model.</td></tr>
     <tr><td class="paramname">smoothSegmentedFunctionToUpdate</td><td>A SmoothSegmentedFunction object that will be erased and filled with the coefficients that are defined by this curve.</td></tr>
@@ -1058,7 +1058,7 @@ limb." Journal of biomechanics 40, no. 14 (2007): 3105-3113.</p>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></li><li class="navelem"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html">Addons</a></li><li class="navelem"><a class="el" href="../../dd/d32/namespace_rigid_body_dynamics_1_1_addons_1_1_muscle.html">Muscle</a></li><li class="navelem"><a class="el" href="../../d1/d80/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_function_factory.html">TorqueMuscleFunctionFactory</a></li>
-    <li class="footer">Generated on Wed Jul 20 2022 11:46:36 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Jul 20 2022 12:57:44 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>

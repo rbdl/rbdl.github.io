@@ -169,61 +169,61 @@
 \_form#168:$\mathbf{t}_A(\theta)$
 \_form#169:$\mathbf{t}_V(\dot{\theta})$
 \_form#170:$\mathbf{t}_P(\theta-\theta_S)$
-\_form#171=17x11:$s_P$
-\_form#172=15x15:$\theta_S$
-\_form#173=62x17:$s^A, s^V, s^\tau$
-\_form#174=21x14:$\Delta^P$
-\_form#175=69x17:$\lambda^A,\lambda^V,\lambda^P$
-\_form#176=8x12:$\theta$
-\_form#177=8x15:$\dot{\theta}$
-\_form#178=11x8:$\mathbf{a}$
-\_form#179=32x11:$\tau_{ISO}$
-\_form#180=399x20:\[ \tau (\mathbf{a}, \theta,\dot{\theta}) = \tau_{ISO} ( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, ) \]
-\_form#181=17x14:$\mathbf{t}_P$
-\_form#182=17x15:$C_2$
-\_form#183=20x14:$5^{th}$
-\_form#184=17x14:$\mathbf{t}_A$
-\_form#185=23x17:$\ell/s$
-\_form#186=75x21:$\dot{\theta}= \frac{1}{2} \dot{\theta}_{MAX}$
-\_form#187=35x15:$\dot{\theta}=0$
-\_form#188=333x15:$ jointTorque = signOfJointTorque*fiberTorque $
-\_form#189=518x35:$ fiberAngle = signOfJointAngleRelativeToAnderson2007*(jointAngle-jointAngleOffsetRelativeToAnderson2007). $
-\_form#190=374x20:\[ \tau_{M} = \pm \tau_{ISO}( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, ) \]
-\_form#191=245x60:\[ \mathbf{a} = \dfrac{ \dfrac{\tau (\mathbf{a}, \theta,\dot{\theta})}{ \tau_{ISO}} - \mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX}))}{ \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX})}. \]
-\_form#192=12x12:$A$
-\_form#193=15x12:$\tau^*$
-\_form#194=357x39:\[ A = \dfrac{\tau^*}{ \tau_{ISO}( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, )} \]
-\_form#195=42x15:$\beta_{MAX}$
-\_form#196=18x17:$\Delta_p$
-\_form#197=18x14:$\lambda^A$
-\_form#198=18x14:$\lambda^P$
-\_form#199=18x14:$\lambda^V$
-\_form#200=45x14:$\lambda^A=1$
-\_form#201=45x14:$\lambda^P=1$
-\_form#202=45x14:$\lambda^V=1$
-\_form#203=96x17:$\mathbf{f}(\mathbf{c}, a,\lambda,\lambda^{max})$
-\_form#204=9x8:$\mathbf{c}$
-\_form#205=261x17:\[ \mathbf{f}(a,\lambda,\lambda^{max},\mathbf{c}()) = \mathbf{c}(a) (1-\lambda) + \lambda\lambda^{max} \]
-\_form#206=69x15:$-\infty,infty$
-\_form#207=8x8:$a$
-\_form#208=20x17:$\mathbf{c}()$
-\_form#209=35x12:$\lambda=1$
-\_form#210=108x17:$\mathbf{f}(a,\lambda,\lambda^{max},\mathbf{c}())$
-\_form#211=18x14:$\mathbf{t}_V$
-\_form#212=35x15:$e^{-1/2}$
-\_form#213=17x14:$s^A$
-\_form#214=17x14:$s^V$
-\_form#215=14x11:$s^\tau$
-\_form#216=14x11:$\tau_{o}$
-\_form#217=11x8:$\mathbf{x}$
-\_form#218=17x11:$\mathbf{x}_o$
-\_form#219=131x20:\[ (\mathbf{x}-\mathbf{x}_o)^T \mathbf{K} (\mathbf{x}-\mathbf{x}_o) \]
-\_form#220=176x20:\[ \tau^M(a^{max},\theta_i,\dot{\theta}_i,\mathbf{x})-\tau_i \ge 0 \]
-\_form#221=152x20:\[ \tau^M(0,\theta_i,\dot{\theta}_i,\mathbf{x})-\tau_i \le 0 \]
-\_form#222=119x17:\[ \mathbf{t}_{P}(\theta_i) - \mathbf{t}_{P}^{max} \le 0 \]
-\_form#223=89x18:\[ s^A, s^V, s^{\tau} \ge 1 \]
-\_form#224=72x18:\[ 1 \ge \lambda^P \ge 0 \]
-\_form#225=126x20:\[ \pi/2 \ge \Delta^P \ge -\pi/2. \]
-\_form#226=32x11:$a^{max}$
-\_form#227=32x15:$\mathbf{t}_{P}^{max}$
-\_form#228=15x8:$\infty$
+\_form#171:$s_P$
+\_form#172:$\theta_S$
+\_form#173:$s^A, s^V, s^\tau$
+\_form#174:$\Delta^P$
+\_form#175:$\lambda^A,\lambda^V,\lambda^P$
+\_form#176:$\theta$
+\_form#177:$\dot{\theta}$
+\_form#178:$\mathbf{a}$
+\_form#179:$\tau_{ISO}$
+\_form#180:\[ \tau (\mathbf{a}, \theta,\dot{\theta}) = \tau_{ISO} ( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, ) \]
+\_form#181:$\mathbf{t}_P$
+\_form#182:$C_2$
+\_form#183:$5^{th}$
+\_form#184:$\mathbf{t}_A$
+\_form#185:$\ell/s$
+\_form#186:$\dot{\theta}= \frac{1}{2} \dot{\theta}_{MAX}$
+\_form#187:$\dot{\theta}=0$
+\_form#188:$ jointTorque = signOfJointTorque*fiberTorque $
+\_form#189:$ fiberAngle = signOfJointAngleRelativeToAnderson2007*(jointAngle-jointAngleOffsetRelativeToAnderson2007). $
+\_form#190:\[ \tau_{M} = \pm \tau_{ISO}( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, ) \]
+\_form#191:\[ \mathbf{a} = \dfrac{ \dfrac{\tau (\mathbf{a}, \theta,\dot{\theta})}{ \tau_{ISO}} - \mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX}))}{ \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX})}. \]
+\_form#192:$A$
+\_form#193:$\tau^*$
+\_form#194:\[ A = \dfrac{\tau^*}{ \tau_{ISO}( \mathbf{a} \, \mathbf{t}_A(\theta) \mathbf{t}_V(\dot{\theta}/\dot{\theta}_{MAX}) +\mathbf{t}_P(1- \beta (\dot{\theta}/\dot{\theta}_{MAX})) \, )} \]
+\_form#195:$\beta_{MAX}$
+\_form#196:$\Delta_p$
+\_form#197:$\lambda^A$
+\_form#198:$\lambda^P$
+\_form#199:$\lambda^V$
+\_form#200:$\lambda^A=1$
+\_form#201:$\lambda^P=1$
+\_form#202:$\lambda^V=1$
+\_form#203:$\mathbf{f}(\mathbf{c}, a,\lambda,\lambda^{max})$
+\_form#204:$\mathbf{c}$
+\_form#205:\[ \mathbf{f}(a,\lambda,\lambda^{max},\mathbf{c}()) = \mathbf{c}(a) (1-\lambda) + \lambda\lambda^{max} \]
+\_form#206:$-\infty,infty$
+\_form#207:$a$
+\_form#208:$\mathbf{c}()$
+\_form#209:$\lambda=1$
+\_form#210:$\mathbf{f}(a,\lambda,\lambda^{max},\mathbf{c}())$
+\_form#211:$\mathbf{t}_V$
+\_form#212:$e^{-1/2}$
+\_form#213:$s^A$
+\_form#214:$s^V$
+\_form#215:$s^\tau$
+\_form#216:$\tau_{o}$
+\_form#217:$\mathbf{x}$
+\_form#218:$\mathbf{x}_o$
+\_form#219:\[ (\mathbf{x}-\mathbf{x}_o)^T \mathbf{K} (\mathbf{x}-\mathbf{x}_o) \]
+\_form#220:\[ \tau^M(a^{max},\theta_i,\dot{\theta}_i,\mathbf{x})-\tau_i \ge 0 \]
+\_form#221:\[ \tau^M(0,\theta_i,\dot{\theta}_i,\mathbf{x})-\tau_i \le 0 \]
+\_form#222:\[ \mathbf{t}_{P}(\theta_i) - \mathbf{t}_{P}^{max} \le 0 \]
+\_form#223:\[ s^A, s^V, s^{\tau} \ge 1 \]
+\_form#224:\[ 1 \ge \lambda^P \ge 0 \]
+\_form#225:\[ \pi/2 \ge \Delta^P \ge -\pi/2. \]
+\_form#226:$a^{max}$
+\_form#227:$\mathbf{t}_{P}^{max}$
+\_form#228:$\infty$

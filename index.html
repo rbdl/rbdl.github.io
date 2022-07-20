@@ -109,21 +109,23 @@ Recent Changes</h1>
 <li>
 Merging RBDL and RBDL-ORB  </li>
 </ul>
-&lt;<ul>
-<li>&gt; </li>
-<li>30 September 2021: New release 3.1.3: <ul>
+</li>
+<li>
+30 September 2021: New release 3.1.3: <ul>
 <li>
 Casadi Math Backend added support for tanh function.  </li>
 </ul>
 </li>
-<li>13 August 2021: New release 3.1.0: <ul>
+<li>
+13 August 2021: New release 3.1.0: <ul>
 <li>
 Added support for rbdl-casadi, as an additional version of the rbdl library. It may be installed on the system in parallel to rbdl. </li>
 <li>
 Added system install of cmake config files, so that projects building on rbdl do not need to provide their own FindRBDL.cmake files anymore. </li>
 </ul>
 </li>
-<li>02 May 2018: New release 2.6.0: <ul>
+<li>
+02 May 2018: New release 2.6.0: <ul>
 <li>
 Added support for closed-loop models by replacing Contacts API by a new Constraints API. Loop constraints can be stabilized using Baumgarte stabilization. Special thanks to Davide Corradi for this contribution! </li>
 <li>
@@ -140,7 +142,8 @@ Removed Model::SetFloatingBaseBody(). Use JointTypeFloatingBase instead. </li>
 LuaModel: extended specification to support ConstraintSets. </li>
 </ul>
 </li>
-<li>28 April 2016: New release 2.5.0: <ul>
+<li>
+28 April 2016: New release 2.5.0: <ul>
 <li>
 Added an experimental Cython based Python wrapper of RBDL. The API is very close to the C++ API. For a brief glimpse of the API see <a class="el" href="dd/dee/_python_example.html">Python Example</a> </li>
 <li>
@@ -161,14 +164,16 @@ Removed Model::SetFloatingBase (body). Use a 6-DoF joint or JointTypeFloatingBas
 Fixed building issues when building DLL with MSVC++. </li>
 </ul>
 </li>
-<li>20 March 2016: New bugfix version 2.4.1: <ul>
+<li>
+20 March 2016: New bugfix version 2.4.1: <ul>
 <li>
 <b>critical</b>: fixed termination criterion for <a class="el" href="de/d92/group__kinematics__group.html#gae99a5094d7dabbe877c01b66868b334f" title="Computes the inverse kinematics iteratively using a damped Levenberg-Marquardt method (also known as ...">InverseKinematics()</a>. The termination criterion would be evaluated too early and thus report convergence too early. This was reported independently by Kevin Stein, Yun Fei, and Davide Corradi. Thanks for the reports! </li>
 <li>
 <b>critical</b>: fixed <a class="el" href="d6/d63/group__dynamics__group.html#gab96bd7cf90ba4130b5f12dd0ad5668e9" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a> when using spherical joints (thanks to Sébastien Barthélémy for reporting!)  </li>
 </ul>
 </li>
-<li>23 February 2015: New version 2.4.0: <ul>
+<li>
+23 February 2015: New version 2.4.0: <ul>
 <li>
 Added sparse range-space method ForwardDynamicsContactsRangeSpaceSparse() and ComputeContactImpulsesRangeSpaceSparse() </li>
 <li>
@@ -201,8 +206,6 @@ LuaModel: Added <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_add
 URDFReader: Fixed various issues and using faster joints for floating base models </li>
 <li>
 Various performance improvements </li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -268,7 +271,7 @@ Acknowledgements</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jul 20 2022 11:46:36 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+    <li class="footer">Generated on Wed Jul 20 2022 12:57:44 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
   </ul>
 </div>
 </body>
